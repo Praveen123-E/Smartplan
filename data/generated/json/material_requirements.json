@@ -1,0 +1,2002 @@
+[
+  {
+    "id": 1,
+    "product_id": "PROD-2026-000001",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000001",
+    "quantity_per_unit": 2.02,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 2,
+    "product_id": "PROD-2026-000001",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000002",
+    "quantity_per_unit": 0.63,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 3,
+    "product_id": "PROD-2026-000002",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000003",
+    "quantity_per_unit": 0.93,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 4,
+    "product_id": "PROD-2026-000002",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000004",
+    "quantity_per_unit": 1.13,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 5,
+    "product_id": "PROD-2026-000003",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000005",
+    "quantity_per_unit": 1.33,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 6,
+    "product_id": "PROD-2026-000003",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000006",
+    "quantity_per_unit": 1.46,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 7,
+    "product_id": "PROD-2026-000004",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000007",
+    "quantity_per_unit": 0.62,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 8,
+    "product_id": "PROD-2026-000004",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000008",
+    "quantity_per_unit": 2.39,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 9,
+    "product_id": "PROD-2026-000005",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000009",
+    "quantity_per_unit": 2.78,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 10,
+    "product_id": "PROD-2026-000005",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000010",
+    "quantity_per_unit": 2.21,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 11,
+    "product_id": "PROD-2026-000006",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000011",
+    "quantity_per_unit": 0.6,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 12,
+    "product_id": "PROD-2026-000006",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000012",
+    "quantity_per_unit": 1.33,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 13,
+    "product_id": "PROD-2026-000007",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000013",
+    "quantity_per_unit": 2.3,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 14,
+    "product_id": "PROD-2026-000007",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000014",
+    "quantity_per_unit": 1.49,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 15,
+    "product_id": "PROD-2026-000008",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000015",
+    "quantity_per_unit": 1.57,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 16,
+    "product_id": "PROD-2026-000008",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000016",
+    "quantity_per_unit": 2.78,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 17,
+    "product_id": "PROD-2026-000009",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000017",
+    "quantity_per_unit": 1.09,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 18,
+    "product_id": "PROD-2026-000009",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000018",
+    "quantity_per_unit": 1.14,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 19,
+    "product_id": "PROD-2026-000010",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000019",
+    "quantity_per_unit": 0.68,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 20,
+    "product_id": "PROD-2026-000010",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000020",
+    "quantity_per_unit": 1.16,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 21,
+    "product_id": "PROD-2026-000011",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000021",
+    "quantity_per_unit": 2.74,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 22,
+    "product_id": "PROD-2026-000011",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000022",
+    "quantity_per_unit": 1.83,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 23,
+    "product_id": "PROD-2026-000012",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000023",
+    "quantity_per_unit": 1.8,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 24,
+    "product_id": "PROD-2026-000012",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000024",
+    "quantity_per_unit": 1.73,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 25,
+    "product_id": "PROD-2026-000013",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000025",
+    "quantity_per_unit": 1.49,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 26,
+    "product_id": "PROD-2026-000013",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000026",
+    "quantity_per_unit": 0.73,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 27,
+    "product_id": "PROD-2026-000014",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000027",
+    "quantity_per_unit": 1.93,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 28,
+    "product_id": "PROD-2026-000014",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000028",
+    "quantity_per_unit": 2.18,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 29,
+    "product_id": "PROD-2026-000015",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000029",
+    "quantity_per_unit": 1.49,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 30,
+    "product_id": "PROD-2026-000015",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000030",
+    "quantity_per_unit": 1.83,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 31,
+    "product_id": "PROD-2026-000016",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000031",
+    "quantity_per_unit": 0.81,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 32,
+    "product_id": "PROD-2026-000016",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000032",
+    "quantity_per_unit": 1.16,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 33,
+    "product_id": "PROD-2026-000017",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000033",
+    "quantity_per_unit": 1.86,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 34,
+    "product_id": "PROD-2026-000017",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000034",
+    "quantity_per_unit": 2.62,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 35,
+    "product_id": "PROD-2026-000018",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000035",
+    "quantity_per_unit": 1.44,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 36,
+    "product_id": "PROD-2026-000018",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000036",
+    "quantity_per_unit": 1.4,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 37,
+    "product_id": "PROD-2026-000019",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000037",
+    "quantity_per_unit": 1.55,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 38,
+    "product_id": "PROD-2026-000019",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000038",
+    "quantity_per_unit": 2.25,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 39,
+    "product_id": "PROD-2026-000020",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000039",
+    "quantity_per_unit": 1.63,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 40,
+    "product_id": "PROD-2026-000020",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000040",
+    "quantity_per_unit": 1.53,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 41,
+    "product_id": "PROD-2026-000021",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000041",
+    "quantity_per_unit": 2.65,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 42,
+    "product_id": "PROD-2026-000021",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000042",
+    "quantity_per_unit": 1.18,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 43,
+    "product_id": "PROD-2026-000022",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000043",
+    "quantity_per_unit": 2.07,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 44,
+    "product_id": "PROD-2026-000022",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000044",
+    "quantity_per_unit": 0.61,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 45,
+    "product_id": "PROD-2026-000023",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000045",
+    "quantity_per_unit": 2.96,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 46,
+    "product_id": "PROD-2026-000023",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000046",
+    "quantity_per_unit": 0.95,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 47,
+    "product_id": "PROD-2026-000024",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000047",
+    "quantity_per_unit": 1.45,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 48,
+    "product_id": "PROD-2026-000024",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000048",
+    "quantity_per_unit": 1.93,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 49,
+    "product_id": "PROD-2026-000025",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000049",
+    "quantity_per_unit": 2.85,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 50,
+    "product_id": "PROD-2026-000025",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000050",
+    "quantity_per_unit": 0.99,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 51,
+    "product_id": "PROD-2026-000026",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000051",
+    "quantity_per_unit": 0.54,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 52,
+    "product_id": "PROD-2026-000026",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000052",
+    "quantity_per_unit": 2.43,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 53,
+    "product_id": "PROD-2026-000027",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000053",
+    "quantity_per_unit": 1.74,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 54,
+    "product_id": "PROD-2026-000027",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000054",
+    "quantity_per_unit": 2.71,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 55,
+    "product_id": "PROD-2026-000028",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000055",
+    "quantity_per_unit": 1.06,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 56,
+    "product_id": "PROD-2026-000028",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000056",
+    "quantity_per_unit": 2.84,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 57,
+    "product_id": "PROD-2026-000029",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000057",
+    "quantity_per_unit": 0.84,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 58,
+    "product_id": "PROD-2026-000029",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000058",
+    "quantity_per_unit": 1.57,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 59,
+    "product_id": "PROD-2026-000030",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000059",
+    "quantity_per_unit": 2.72,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 60,
+    "product_id": "PROD-2026-000030",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000060",
+    "quantity_per_unit": 1.87,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 61,
+    "product_id": "PROD-2026-000031",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000061",
+    "quantity_per_unit": 1.5,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 62,
+    "product_id": "PROD-2026-000031",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000062",
+    "quantity_per_unit": 2.49,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 63,
+    "product_id": "PROD-2026-000032",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000063",
+    "quantity_per_unit": 1.9,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 64,
+    "product_id": "PROD-2026-000032",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000064",
+    "quantity_per_unit": 1.87,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 65,
+    "product_id": "PROD-2026-000033",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000065",
+    "quantity_per_unit": 1.71,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 66,
+    "product_id": "PROD-2026-000033",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000066",
+    "quantity_per_unit": 1.32,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 67,
+    "product_id": "PROD-2026-000034",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000067",
+    "quantity_per_unit": 1.6,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 68,
+    "product_id": "PROD-2026-000034",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000068",
+    "quantity_per_unit": 2.08,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 69,
+    "product_id": "PROD-2026-000035",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000069",
+    "quantity_per_unit": 2.76,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 70,
+    "product_id": "PROD-2026-000035",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000070",
+    "quantity_per_unit": 2.55,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 71,
+    "product_id": "PROD-2026-000036",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000071",
+    "quantity_per_unit": 2.75,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 72,
+    "product_id": "PROD-2026-000036",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000072",
+    "quantity_per_unit": 1.34,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 73,
+    "product_id": "PROD-2026-000037",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000073",
+    "quantity_per_unit": 1.43,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 74,
+    "product_id": "PROD-2026-000037",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000074",
+    "quantity_per_unit": 1.79,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 75,
+    "product_id": "PROD-2026-000038",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000075",
+    "quantity_per_unit": 1.8,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 76,
+    "product_id": "PROD-2026-000038",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000076",
+    "quantity_per_unit": 1.36,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 77,
+    "product_id": "PROD-2026-000039",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000077",
+    "quantity_per_unit": 0.88,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 78,
+    "product_id": "PROD-2026-000039",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000078",
+    "quantity_per_unit": 1.42,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 79,
+    "product_id": "PROD-2026-000040",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000079",
+    "quantity_per_unit": 1.55,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 80,
+    "product_id": "PROD-2026-000040",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000080",
+    "quantity_per_unit": 1.29,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 81,
+    "product_id": "PROD-2026-000041",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000081",
+    "quantity_per_unit": 0.74,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 82,
+    "product_id": "PROD-2026-000041",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000082",
+    "quantity_per_unit": 2.95,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 83,
+    "product_id": "PROD-2026-000042",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000083",
+    "quantity_per_unit": 0.92,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 84,
+    "product_id": "PROD-2026-000042",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000084",
+    "quantity_per_unit": 2.63,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 85,
+    "product_id": "PROD-2026-000043",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000085",
+    "quantity_per_unit": 1.52,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 86,
+    "product_id": "PROD-2026-000043",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000086",
+    "quantity_per_unit": 1.58,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 87,
+    "product_id": "PROD-2026-000044",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000087",
+    "quantity_per_unit": 1.57,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 88,
+    "product_id": "PROD-2026-000044",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000088",
+    "quantity_per_unit": 0.87,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 89,
+    "product_id": "PROD-2026-000045",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000089",
+    "quantity_per_unit": 1.78,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 90,
+    "product_id": "PROD-2026-000045",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000090",
+    "quantity_per_unit": 2.77,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 91,
+    "product_id": "PROD-2026-000046",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000091",
+    "quantity_per_unit": 1.21,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 92,
+    "product_id": "PROD-2026-000046",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000092",
+    "quantity_per_unit": 1.37,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 93,
+    "product_id": "PROD-2026-000047",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000093",
+    "quantity_per_unit": 1.32,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 94,
+    "product_id": "PROD-2026-000047",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000094",
+    "quantity_per_unit": 1.65,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 95,
+    "product_id": "PROD-2026-000048",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000095",
+    "quantity_per_unit": 1.31,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 96,
+    "product_id": "PROD-2026-000048",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000096",
+    "quantity_per_unit": 2.48,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 97,
+    "product_id": "PROD-2026-000049",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000097",
+    "quantity_per_unit": 1.74,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 98,
+    "product_id": "PROD-2026-000049",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000098",
+    "quantity_per_unit": 2.56,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 99,
+    "product_id": "PROD-2026-000050",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000099",
+    "quantity_per_unit": 0.94,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 100,
+    "product_id": "PROD-2026-000050",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000100",
+    "quantity_per_unit": 1.32,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 101,
+    "product_id": "PROD-2026-000051",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000101",
+    "quantity_per_unit": 1.84,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 102,
+    "product_id": "PROD-2026-000051",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000102",
+    "quantity_per_unit": 0.86,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 103,
+    "product_id": "PROD-2026-000052",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000103",
+    "quantity_per_unit": 1.35,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 104,
+    "product_id": "PROD-2026-000052",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000104",
+    "quantity_per_unit": 1.74,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 105,
+    "product_id": "PROD-2026-000053",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000105",
+    "quantity_per_unit": 1.87,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 106,
+    "product_id": "PROD-2026-000053",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000106",
+    "quantity_per_unit": 0.58,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 107,
+    "product_id": "PROD-2026-000054",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000107",
+    "quantity_per_unit": 2.8,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 108,
+    "product_id": "PROD-2026-000054",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000108",
+    "quantity_per_unit": 1.76,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 109,
+    "product_id": "PROD-2026-000055",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000109",
+    "quantity_per_unit": 1.94,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 110,
+    "product_id": "PROD-2026-000055",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000110",
+    "quantity_per_unit": 2.97,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 111,
+    "product_id": "PROD-2026-000056",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000111",
+    "quantity_per_unit": 0.62,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 112,
+    "product_id": "PROD-2026-000056",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000112",
+    "quantity_per_unit": 2.33,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 113,
+    "product_id": "PROD-2026-000057",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000113",
+    "quantity_per_unit": 2.19,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 114,
+    "product_id": "PROD-2026-000057",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000114",
+    "quantity_per_unit": 2.37,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 115,
+    "product_id": "PROD-2026-000058",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000115",
+    "quantity_per_unit": 0.88,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 116,
+    "product_id": "PROD-2026-000058",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000116",
+    "quantity_per_unit": 2.75,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 117,
+    "product_id": "PROD-2026-000059",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000117",
+    "quantity_per_unit": 1.09,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 118,
+    "product_id": "PROD-2026-000059",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000118",
+    "quantity_per_unit": 2.51,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 119,
+    "product_id": "PROD-2026-000060",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000119",
+    "quantity_per_unit": 1.28,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 120,
+    "product_id": "PROD-2026-000060",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000120",
+    "quantity_per_unit": 1.89,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 121,
+    "product_id": "PROD-2026-000061",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000121",
+    "quantity_per_unit": 1.55,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 122,
+    "product_id": "PROD-2026-000061",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000122",
+    "quantity_per_unit": 1.19,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 123,
+    "product_id": "PROD-2026-000062",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000123",
+    "quantity_per_unit": 1.45,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 124,
+    "product_id": "PROD-2026-000062",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000124",
+    "quantity_per_unit": 0.89,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 125,
+    "product_id": "PROD-2026-000063",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000125",
+    "quantity_per_unit": 2.08,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 126,
+    "product_id": "PROD-2026-000063",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000126",
+    "quantity_per_unit": 0.94,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 127,
+    "product_id": "PROD-2026-000064",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000127",
+    "quantity_per_unit": 2.91,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 128,
+    "product_id": "PROD-2026-000064",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000128",
+    "quantity_per_unit": 1.85,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 129,
+    "product_id": "PROD-2026-000065",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000129",
+    "quantity_per_unit": 2.05,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 130,
+    "product_id": "PROD-2026-000065",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000130",
+    "quantity_per_unit": 2.64,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 131,
+    "product_id": "PROD-2026-000066",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000131",
+    "quantity_per_unit": 1.16,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 132,
+    "product_id": "PROD-2026-000066",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000132",
+    "quantity_per_unit": 1.56,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 133,
+    "product_id": "PROD-2026-000067",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000133",
+    "quantity_per_unit": 2.41,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 134,
+    "product_id": "PROD-2026-000067",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000134",
+    "quantity_per_unit": 1.74,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 135,
+    "product_id": "PROD-2026-000068",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000135",
+    "quantity_per_unit": 0.69,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 136,
+    "product_id": "PROD-2026-000068",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000136",
+    "quantity_per_unit": 0.81,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 137,
+    "product_id": "PROD-2026-000069",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000137",
+    "quantity_per_unit": 2.08,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 138,
+    "product_id": "PROD-2026-000069",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000138",
+    "quantity_per_unit": 1.93,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 139,
+    "product_id": "PROD-2026-000070",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000139",
+    "quantity_per_unit": 2.41,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 140,
+    "product_id": "PROD-2026-000070",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000140",
+    "quantity_per_unit": 0.81,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 141,
+    "product_id": "PROD-2026-000071",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000141",
+    "quantity_per_unit": 2.29,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 142,
+    "product_id": "PROD-2026-000071",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000142",
+    "quantity_per_unit": 2.0,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 143,
+    "product_id": "PROD-2026-000072",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000143",
+    "quantity_per_unit": 1.49,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 144,
+    "product_id": "PROD-2026-000072",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000144",
+    "quantity_per_unit": 1.59,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 145,
+    "product_id": "PROD-2026-000073",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000145",
+    "quantity_per_unit": 2.16,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 146,
+    "product_id": "PROD-2026-000073",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000146",
+    "quantity_per_unit": 2.64,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 147,
+    "product_id": "PROD-2026-000074",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000147",
+    "quantity_per_unit": 2.08,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 148,
+    "product_id": "PROD-2026-000074",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000148",
+    "quantity_per_unit": 2.68,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 149,
+    "product_id": "PROD-2026-000075",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000149",
+    "quantity_per_unit": 2.65,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 150,
+    "product_id": "PROD-2026-000075",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000150",
+    "quantity_per_unit": 0.98,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 151,
+    "product_id": "PROD-2026-000076",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000151",
+    "quantity_per_unit": 1.5,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 152,
+    "product_id": "PROD-2026-000076",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000152",
+    "quantity_per_unit": 1.8,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 153,
+    "product_id": "PROD-2026-000077",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000153",
+    "quantity_per_unit": 2.26,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 154,
+    "product_id": "PROD-2026-000077",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000154",
+    "quantity_per_unit": 2.05,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 155,
+    "product_id": "PROD-2026-000078",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000155",
+    "quantity_per_unit": 2.59,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 156,
+    "product_id": "PROD-2026-000078",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000156",
+    "quantity_per_unit": 1.36,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 157,
+    "product_id": "PROD-2026-000079",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000157",
+    "quantity_per_unit": 1.8,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 158,
+    "product_id": "PROD-2026-000079",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000158",
+    "quantity_per_unit": 0.8,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 159,
+    "product_id": "PROD-2026-000080",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000159",
+    "quantity_per_unit": 2.11,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 160,
+    "product_id": "PROD-2026-000080",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000160",
+    "quantity_per_unit": 1.52,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 161,
+    "product_id": "PROD-2026-000081",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000161",
+    "quantity_per_unit": 1.89,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 162,
+    "product_id": "PROD-2026-000081",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000162",
+    "quantity_per_unit": 1.36,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 163,
+    "product_id": "PROD-2026-000082",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000163",
+    "quantity_per_unit": 2.96,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 164,
+    "product_id": "PROD-2026-000082",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000164",
+    "quantity_per_unit": 2.16,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 165,
+    "product_id": "PROD-2026-000083",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000165",
+    "quantity_per_unit": 2.13,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 166,
+    "product_id": "PROD-2026-000083",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000166",
+    "quantity_per_unit": 2.37,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 167,
+    "product_id": "PROD-2026-000084",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000167",
+    "quantity_per_unit": 1.64,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 168,
+    "product_id": "PROD-2026-000084",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000168",
+    "quantity_per_unit": 1.74,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 169,
+    "product_id": "PROD-2026-000085",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000169",
+    "quantity_per_unit": 1.85,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 170,
+    "product_id": "PROD-2026-000085",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000170",
+    "quantity_per_unit": 2.96,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 171,
+    "product_id": "PROD-2026-000086",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000171",
+    "quantity_per_unit": 3.0,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 172,
+    "product_id": "PROD-2026-000086",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000172",
+    "quantity_per_unit": 2.58,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 173,
+    "product_id": "PROD-2026-000087",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000173",
+    "quantity_per_unit": 2.19,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 174,
+    "product_id": "PROD-2026-000087",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000174",
+    "quantity_per_unit": 2.03,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 175,
+    "product_id": "PROD-2026-000088",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000175",
+    "quantity_per_unit": 2.73,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 176,
+    "product_id": "PROD-2026-000088",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000176",
+    "quantity_per_unit": 2.12,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 177,
+    "product_id": "PROD-2026-000089",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000177",
+    "quantity_per_unit": 1.62,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 178,
+    "product_id": "PROD-2026-000089",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000178",
+    "quantity_per_unit": 1.41,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 179,
+    "product_id": "PROD-2026-000090",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000179",
+    "quantity_per_unit": 2.58,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 180,
+    "product_id": "PROD-2026-000090",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000180",
+    "quantity_per_unit": 2.51,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 181,
+    "product_id": "PROD-2026-000091",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000181",
+    "quantity_per_unit": 0.51,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 182,
+    "product_id": "PROD-2026-000091",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000182",
+    "quantity_per_unit": 2.83,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 183,
+    "product_id": "PROD-2026-000092",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000183",
+    "quantity_per_unit": 1.85,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 184,
+    "product_id": "PROD-2026-000092",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000184",
+    "quantity_per_unit": 1.69,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 185,
+    "product_id": "PROD-2026-000093",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000185",
+    "quantity_per_unit": 1.72,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 186,
+    "product_id": "PROD-2026-000093",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000186",
+    "quantity_per_unit": 2.53,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 187,
+    "product_id": "PROD-2026-000094",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000187",
+    "quantity_per_unit": 2.72,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 188,
+    "product_id": "PROD-2026-000094",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000188",
+    "quantity_per_unit": 0.95,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 189,
+    "product_id": "PROD-2026-000095",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000189",
+    "quantity_per_unit": 1.61,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 190,
+    "product_id": "PROD-2026-000095",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000190",
+    "quantity_per_unit": 2.13,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 191,
+    "product_id": "PROD-2026-000096",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000191",
+    "quantity_per_unit": 2.41,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 192,
+    "product_id": "PROD-2026-000096",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000192",
+    "quantity_per_unit": 0.94,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 193,
+    "product_id": "PROD-2026-000097",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000193",
+    "quantity_per_unit": 2.24,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 194,
+    "product_id": "PROD-2026-000097",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000194",
+    "quantity_per_unit": 1.72,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 195,
+    "product_id": "PROD-2026-000098",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000195",
+    "quantity_per_unit": 2.8,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 196,
+    "product_id": "PROD-2026-000098",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000196",
+    "quantity_per_unit": 1.35,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 197,
+    "product_id": "PROD-2026-000099",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000197",
+    "quantity_per_unit": 0.8,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 198,
+    "product_id": "PROD-2026-000099",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000198",
+    "quantity_per_unit": 1.17,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 199,
+    "product_id": "PROD-2026-000100",
+    "operation_code": "OP-STD-001",
+    "material_id": "MAT-2026-000199",
+    "quantity_per_unit": 0.56,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 200,
+    "product_id": "PROD-2026-000100",
+    "operation_code": "OP-STD-007",
+    "material_id": "MAT-2026-000200",
+    "quantity_per_unit": 0.85,
+    "scrap_factor": 0.02,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  }
+]

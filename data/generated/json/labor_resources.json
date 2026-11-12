@@ -1,0 +1,252 @@
+[
+  {
+    "labor_id": 1,
+    "employee_code": "EMP-001",
+    "full_name": "Operator 001",
+    "skill_group": "Cutting",
+    "shift_id": 1,
+    "is_available": true,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "labor_id": 2,
+    "employee_code": "EMP-002",
+    "full_name": "Operator 002",
+    "skill_group": "Machining",
+    "shift_id": 2,
+    "is_available": true,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "labor_id": 3,
+    "employee_code": "EMP-003",
+    "full_name": "Operator 003",
+    "skill_group": "Machining",
+    "shift_id": 3,
+    "is_available": true,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "labor_id": 4,
+    "employee_code": "EMP-004",
+    "full_name": "Operator 004",
+    "skill_group": "Drilling",
+    "shift_id": 4,
+    "is_available": true,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "labor_id": 5,
+    "employee_code": "EMP-005",
+    "full_name": "Operator 005",
+    "skill_group": "Grinding",
+    "shift_id": 5,
+    "is_available": true,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "labor_id": 6,
+    "employee_code": "EMP-006",
+    "full_name": "Operator 006",
+    "skill_group": "Welding",
+    "shift_id": 6,
+    "is_available": true,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "labor_id": 7,
+    "employee_code": "EMP-007",
+    "full_name": "Operator 007",
+    "skill_group": "Assembly",
+    "shift_id": 7,
+    "is_available": true,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "labor_id": 8,
+    "employee_code": "EMP-008",
+    "full_name": "Operator 008",
+    "skill_group": "Inspection",
+    "shift_id": 8,
+    "is_available": true,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "labor_id": 9,
+    "employee_code": "EMP-009",
+    "full_name": "Operator 009",
+    "skill_group": "Cutting",
+    "shift_id": 9,
+    "is_available": true,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "labor_id": 10,
+    "employee_code": "EMP-010",
+    "full_name": "Operator 010",
+    "skill_group": "Machining",
+    "shift_id": 10,
+    "is_available": true,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "labor_id": 11,
+    "employee_code": "EMP-011",
+    "full_name": "Operator 011",
+    "skill_group": "Machining",
+    "shift_id": 11,
+    "is_available": true,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "labor_id": 12,
+    "employee_code": "EMP-012",
+    "full_name": "Operator 012",
+    "skill_group": "Drilling",
+    "shift_id": 12,
+    "is_available": true,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "labor_id": 13,
+    "employee_code": "EMP-013",
+    "full_name": "Operator 013",
+    "skill_group": "Grinding",
+    "shift_id": 1,
+    "is_available": true,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "labor_id": 14,
+    "employee_code": "EMP-014",
+    "full_name": "Operator 014",
+    "skill_group": "Welding",
+    "shift_id": 2,
+    "is_available": true,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "labor_id": 15,
+    "employee_code": "EMP-015",
+    "full_name": "Operator 015",
+    "skill_group": "Assembly",
+    "shift_id": 3,
+    "is_available": true,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "labor_id": 16,
+    "employee_code": "EMP-016",
+    "full_name": "Operator 016",
+    "skill_group": "Inspection",
+    "shift_id": 4,
+    "is_available": true,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "labor_id": 17,
+    "employee_code": "EMP-017",
+    "full_name": "Operator 017",
+    "skill_group": "Cutting",
+    "shift_id": 5,
+    "is_available": true,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "labor_id": 18,
+    "employee_code": "EMP-018",
+    "full_name": "Operator 018",
+    "skill_group": "Machining",
+    "shift_id": 6,
+    "is_available": true,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "labor_id": 19,
+    "employee_code": "EMP-019",
+    "full_name": "Operator 019",
+    "skill_group": "Machining",
+    "shift_id": 7,
+    "is_available": true,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "labor_id": 20,
+    "employee_code": "EMP-020",
+    "full_name": "Operator 020",
+    "skill_group": "Drilling",
+    "shift_id": 8,
+    "is_available": true,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "labor_id": 21,
+    "employee_code": "EMP-021",
+    "full_name": "Operator 021",
+    "skill_group": "Grinding",
+    "shift_id": 9,
+    "is_available": true,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "labor_id": 22,
+    "employee_code": "EMP-022",
+    "full_name": "Operator 022",
+    "skill_group": "Welding",
+    "shift_id": 10,
+    "is_available": true,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "labor_id": 23,
+    "employee_code": "EMP-023",
+    "full_name": "Operator 023",
+    "skill_group": "Assembly",
+    "shift_id": 11,
+    "is_available": true,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "labor_id": 24,
+    "employee_code": "EMP-024",
+    "full_name": "Operator 024",
+    "skill_group": "Inspection",
+    "shift_id": 12,
+    "is_available": true,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "labor_id": 25,
+    "employee_code": "EMP-025",
+    "full_name": "Operator 025",
+    "skill_group": "Cutting",
+    "shift_id": 1,
+    "is_available": true,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  }
+]

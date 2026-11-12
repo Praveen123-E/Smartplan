@@ -1,0 +1,32 @@
+<!-- Exceptions & Anomalies Page -->
+<div class="d-flex flex-wrap align-items-center justify-content-between gap-2 mb-3">
+    <div>
+        <h4 class="fw-bold mb-0">Exceptions & Constraint Violations</h4>
+        <p class="text-muted small mb-0">Run independent anomaly detection scans, inspect severity details, and resolve open scheduling issues.</p>
+    </div>
+    <button class="btn btn-indigo btn-sm" id="btnRunAnomalyDetect"><i class="bi bi-search-heart me-1"></i>Run Detection Scan</button>
+</div>
+
+<div class="enterprise-card mb-3">
+    <div class="card-body py-3 d-flex flex-wrap gap-2">
+        <select id="excSeverityFilter" class="form-select form-select-sm" style="max-width:170px">
+            <option value="">All Severities</option>
+            <option>Critical</option><option>High</option><option>Medium</option><option>Low</option>
+        </select>
+        <select id="excStatusFilter" class="form-select form-select-sm" style="max-width:170px">
+            <option value="">All Status</option>
+            <option>Open</option><option>In Review</option><option>Resolved</option>
+        </select>
+        <input id="excEntityFilter" class="form-control form-control-sm" style="max-width:210px" placeholder="Entity ID (ORD / MACH / OP)">
+        <button class="btn btn-navy btn-sm" id="excFilterBtn">Apply Filter</button>
+    </div>
+</div>
+
+<div class="enterprise-card">
+    <div class="table-responsive">
+        <table class="table table-enterprise table-hover">
+            <thead><tr><th>Violation ID</th><th>Type</th><th>Severity</th><th>Entity</th><th>Description</th><th>Status</th><th>Action</th></tr></thead>
+            <tbody id="exceptionsTableBody"></tbody>
+        </table>
+    </div>
+</div>

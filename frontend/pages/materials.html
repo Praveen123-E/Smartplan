@@ -1,0 +1,94 @@
+<!-- Materials & Inventory Page -->
+<div class="d-flex flex-wrap align-items-center justify-content-between gap-2 mb-3">
+    <div>
+        <h4 class="fw-bold mb-0">Materials & Inventory</h4>
+        <p class="text-muted small mb-0">Track raw materials, FIFO inventory lots, delayed deliveries, reservations, and material shortages.</p>
+    </div>
+    <div class="d-flex gap-2">
+        <button class="btn btn-outline-primary btn-sm" id="btnNewMaterial"><i class="bi bi-plus-lg me-1"></i>Add Material</button>
+        <button class="btn btn-indigo btn-sm" id="btnReceiveLot"><i class="bi bi-box-arrow-in-down me-1"></i>Receive Lot</button>
+    </div>
+</div>
+
+<div class="row g-3 mb-3">
+    <div class="col-lg-7">
+        <div class="enterprise-card h-100">
+            <div class="card-header">
+                <span>Material Master</span>
+                <div class="d-flex gap-2">
+                    <input type="text" id="matSearch" class="form-control form-control-sm" style="width:180px" placeholder="Search material...">
+                    <select id="matStockFilter" class="form-select form-select-sm" style="width:140px">
+                        <option value="">All Stock</option><option>In Stock</option><option>Low Stock</option><option>Out of Stock</option><option>Delayed</option>
+                    </select>
+                </div>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-enterprise table-hover">
+                    <thead><tr><th>Material ID</th><th>Name</th><th>Category</th><th>Avail Qty</th><th>Reorder</th><th>Stock Status</th></tr></thead>
+                    <tbody id="materialsTableBody"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-5">
+        <div class="enterprise-card h-100">
+            <div class="card-header">
+                <span>Inventory Lots</span>
+                <div class="form-check form-switch mb-0">
+                    <input class="form-check-input" type="checkbox" id="lotDelayedOnly">
+                    <label class="form-check-label small" for="lotDelayedOnly">Delayed Only</label>
+                </div>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-enterprise table-hover">
+                    <thead><tr><th>Lot</th><th>Material</th><th>Avail Qty</th><th>Avail Date</th><th>Delayed</th></tr></thead>
+                    <tbody id="lotsTableBody"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="enterprise-card">
+    <div class="card-header"><span>Material Shortages & Order Demand</span></div>
+    <div class="table-responsive">
+        <table class="table table-enterprise table-hover">
+            <thead><tr><th>Material ID</th><th>Name</th><th>Required</th><th>Total Available</th><th>Shortfall</th></tr></thead>
+            <tbody id="shortagesTableBody"></tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Add Material Modal -->
+<div class="modal fade" id="materialModal" tabindex="-1">
+    <div class="modal-dialog">
+        <form class="modal-content" id="materialForm">
+            <div class="modal-header"><h5 class="modal-title fw-bold">Add Material</h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div>
+            <div class="modal-body row g-2">
+                <div class="col-12"><label class="form-label small fw-semibold">Material Name</label><input id="matName" class="form-control form-control-sm" required></div>
+                <div class="col-md-6"><label class="form-label small fw-semibold">Category</label><input id="matCategory" class="form-control form-control-sm" value="Alloy Bar" required></div>
+                <div class="col-md-6"><label class="form-label small fw-semibold">Unit</label><input id="matUnit" class="form-control form-control-sm" value="kg" required></div>
+                <div class="col-md-6"><label class="form-label small fw-semibold">Unit Cost ($)</label><input type="number" step="0.5" id="matCost" class="form-control form-control-sm" value="18" min="0" required></div>
+                <div class="col-md-6"><label class="form-label small fw-semibold">Reorder Level</label><input type="number" id="matReorder" class="form-control form-control-sm" value="50" min="0" required></div>
+            </div>
+            <div class="modal-footer"><button class="btn btn-indigo btn-sm" type="submit">Save Material</button></div>
+        </form>
+    </div>
+</div>
+
+<!-- Receive Lot Modal -->
+<div class="modal fade" id="receiveLotModal" tabindex="-1">
+    <div class="modal-dialog">
+        <form class="modal-content" id="receiveLotForm">
+            <div class="modal-header"><h5 class="modal-title fw-bold">Receive Inventory Lot</h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div>
+            <div class="modal-body row g-2">
+                <div class="col-12"><label class="form-label small fw-semibold">Material</label><select id="lotMatId" class="form-select form-select-sm" required></select></div>
+                <div class="col-md-6"><label class="form-label small fw-semibold">Lot Number</label><input id="lotNumber" class="form-control form-control-sm" value="LOT-2026-NEW" minlength="3" required></div>
+                <div class="col-md-6"><label class="form-label small fw-semibold">Quantity</label><input type="number" id="lotQty" class="form-control form-control-sm" min="1" value="200" required></div>
+                <div class="col-md-6"><label class="form-label small fw-semibold">Available Date</label><input type="date" id="lotAvailDate" class="form-control form-control-sm" required></div>
+                <div class="col-md-6"><label class="form-label small fw-semibold">Supplier</label><input id="lotSupplierRef" class="form-control form-control-sm" value="Apex Metals Ltd"></div>
+            </div>
+            <div class="modal-footer"><button class="btn btn-indigo btn-sm" type="submit">Receive Stock</button></div>
+        </form>
+    </div>
+</div>

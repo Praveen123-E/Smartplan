@@ -1,0 +1,115 @@
+<!-- Overview Dashboard Page (12 Live KPI Cards + 6 Charts + Upcoming Schedule + Alerts + Activities) -->
+<div class="d-flex flex-wrap align-items-center justify-content-between gap-2 mb-3">
+    <div>
+        <h4 class="fw-bold mb-0 text-dark">Production Operations Overview</h4>
+        <p class="text-muted small mb-0">Live KPI metrics, constraint health, and production execution status from database records.</p>
+    </div>
+    <div class="d-flex flex-wrap gap-2 align-items-center">
+        <input type="date" id="ovStartDate" class="form-control form-control-sm" style="width:145px" title="Filter Start Date">
+        <input type="date" id="ovEndDate" class="form-control form-control-sm" style="width:145px" title="Filter End Date">
+        <select id="ovMachineFilter" class="form-select form-select-sm" style="width:160px">
+            <option value="">All Machines</option>
+        </select>
+        <button id="ovRefreshBtn" class="btn btn-sm btn-indigo">
+            <i class="bi bi-arrow-clockwise me-1"></i>Refresh
+        </button>
+    </div>
+</div>
+
+<!-- 12 KPI Cards -->
+<div class="row g-3 mb-4" id="overviewKpiGrid">
+    <div class="col-6 col-md-4 col-xl-2"><div class="kpi-card"><div><div class="kpi-label">Total Orders</div><div class="kpi-value" id="kpiTotalOrders">-</div></div><span class="kpi-icon navy"><i class="bi bi-clipboard2-data"></i></span></div></div>
+    <div class="col-6 col-md-4 col-xl-2"><div class="kpi-card"><div><div class="kpi-label">Pending Orders</div><div class="kpi-value" id="kpiPendingOrders">-</div></div><span class="kpi-icon indigo"><i class="bi bi-hourglass-split"></i></span></div></div>
+    <div class="col-6 col-md-4 col-xl-2"><div class="kpi-card"><div><div class="kpi-label">Scheduled</div><div class="kpi-value" id="kpiScheduledOrders">-</div></div><span class="kpi-icon info"><i class="bi bi-calendar-check"></i></span></div></div>
+    <div class="col-6 col-md-4 col-xl-2"><div class="kpi-card"><div><div class="kpi-label">Completed</div><div class="kpi-value" id="kpiCompletedOrders">-</div></div><span class="kpi-icon success"><i class="bi bi-check2-circle"></i></span></div></div>
+    <div class="col-6 col-md-4 col-xl-2"><div class="kpi-card"><div><div class="kpi-label">Delayed Orders</div><div class="kpi-value" id="kpiDelayedOrders">-</div></div><span class="kpi-icon warning"><i class="bi bi-clock-history"></i></span></div></div>
+    <div class="col-6 col-md-4 col-xl-2"><div class="kpi-card"><div><div class="kpi-label">Infeasible</div><div class="kpi-value" id="kpiInfeasibleOrders">-</div></div><span class="kpi-icon danger"><i class="bi bi-x-octagon"></i></span></div></div>
+    <div class="col-6 col-md-4 col-xl-2"><div class="kpi-card"><div><div class="kpi-label">Total Machines</div><div class="kpi-value" id="kpiTotalMachines">-</div></div><span class="kpi-icon navy"><i class="bi bi-cpu"></i></span></div></div>
+    <div class="col-6 col-md-4 col-xl-2"><div class="kpi-card"><div><div class="kpi-label">Available Mach.</div><div class="kpi-value" id="kpiAvailMachines">-</div></div><span class="kpi-icon success"><i class="bi bi-activity"></i></span></div></div>
+    <div class="col-6 col-md-4 col-xl-2"><div class="kpi-card"><div><div class="kpi-label">Avg Utilization</div><div class="kpi-value" id="kpiAvgUtil">-</div></div><span class="kpi-icon indigo"><i class="bi bi-speedometer2"></i></span></div></div>
+    <div class="col-6 col-md-4 col-xl-2"><div class="kpi-card"><div><div class="kpi-label">Total Materials</div><div class="kpi-value" id="kpiTotalMaterials">-</div></div><span class="kpi-icon info"><i class="bi bi-boxes"></i></span></div></div>
+    <div class="col-6 col-md-4 col-xl-2"><div class="kpi-card"><div><div class="kpi-label">Open Violations</div><div class="kpi-value" id="kpiOpenViolations">-</div></div><span class="kpi-icon danger"><i class="bi bi-shield-exclamation"></i></span></div></div>
+    <div class="col-6 col-md-4 col-xl-2"><div class="kpi-card"><div><div class="kpi-label">On-Time Delivery</div><div class="kpi-value" id="kpiOtdPct">-</div></div><span class="kpi-icon success"><i class="bi bi-award"></i></span></div></div>
+</div>
+
+<!-- Row 1 Charts -->
+<div class="row g-3 mb-4">
+    <div class="col-lg-4">
+        <div class="enterprise-card h-100">
+            <div class="card-header"><span>1. Production Order Status</span><span class="badge bg-light text-dark">Live</span></div>
+            <div class="card-body" style="height:260px"><canvas id="chartOrderStatus"></canvas></div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="enterprise-card h-100">
+            <div class="card-header"><span>2. Machine Utilization (%)</span><span id="ovRunBadge" class="badge bg-primary-subtle text-primary">Latest Run</span></div>
+            <div class="card-body" style="height:260px"><canvas id="chartMachineUtil"></canvas></div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="enterprise-card h-100">
+            <div class="card-header"><span>3. Production Output Trend</span><span class="badge bg-light text-dark">Units</span></div>
+            <div class="card-body" style="height:260px"><canvas id="chartProductionOutput"></canvas></div>
+        </div>
+    </div>
+</div>
+
+<!-- Row 2 Charts -->
+<div class="row g-3 mb-4">
+    <div class="col-lg-4">
+        <div class="enterprise-card h-100">
+            <div class="card-header"><span>4. Order Priority Distribution</span></div>
+            <div class="card-body" style="height:250px"><canvas id="chartOrderPriority"></canvas></div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="enterprise-card h-100">
+            <div class="card-header"><span>5. Constraint Violations</span></div>
+            <div class="card-body" style="height:250px"><canvas id="chartViolations"></canvas></div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="enterprise-card h-100">
+            <div class="card-header"><span>6. Machine Availability Status</span></div>
+            <div class="card-body" style="height:250px"><canvas id="chartMachineAvail"></canvas></div>
+        </div>
+    </div>
+</div>
+
+<!-- Row 3: Upcoming Schedule + Alerts + Activity Timeline -->
+<div class="row g-3">
+    <div class="col-xl-5">
+        <div class="enterprise-card h-100">
+            <div class="card-header">
+                <span>7. Upcoming Production Schedule</span>
+                <button class="btn btn-sm btn-outline-primary" onclick="window.PlantOpsApp.navigate('gantt')">Open Gantt</button>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-enterprise table-hover">
+                    <thead>
+                        <tr><th>Order</th><th>Machine</th><th>Start</th><th>End</th><th>Status</th></tr>
+                    </thead>
+                    <tbody id="ovUpcomingBody"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-4">
+        <div class="enterprise-card h-100">
+            <div class="card-header">
+                <span>8. Critical Alerts</span>
+                <button class="btn btn-sm btn-outline-danger" onclick="window.PlantOpsApp.navigate('exceptions')">View All</button>
+            </div>
+            <div class="card-body" id="ovAlertsContainer"></div>
+        </div>
+    </div>
+    <div class="col-xl-3">
+        <div class="enterprise-card h-100">
+            <div class="card-header"><span>9. Recent Activities</span></div>
+            <div class="card-body">
+                <ul class="activity-timeline" id="ovActivityTimeline"></ul>
+            </div>
+        </div>
+    </div>
+</div>
+

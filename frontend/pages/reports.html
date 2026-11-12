@@ -1,0 +1,39 @@
+<!-- Reports & Analytics Page -->
+<div class="d-flex flex-wrap align-items-center justify-content-between gap-2 mb-3">
+    <div>
+        <h4 class="fw-bold mb-0">Reports & Production Analytics</h4>
+        <p class="text-muted small mb-0">Analyze makespan, lateness, changeover overhead, and export scheduled execution tables to CSV.</p>
+    </div>
+    <div class="d-flex gap-2">
+        <select id="repRunSelect" class="form-select form-select-sm" style="width:230px"></select>
+        <button class="btn btn-indigo btn-sm" id="btnExportCsv"><i class="bi bi-file-earmark-spreadsheet me-1"></i>Export Schedule CSV</button>
+    </div>
+</div>
+
+<div class="row g-3 mb-4">
+    <div class="col-md-3"><div class="kpi-card"><div><div class="kpi-label">Makespan (min)</div><div class="kpi-value" id="repMakespan">-</div></div><span class="kpi-icon navy"><i class="bi bi-stopwatch"></i></span></div></div>
+    <div class="col-md-3"><div class="kpi-card"><div><div class="kpi-label">Total Lateness (min)</div><div class="kpi-value" id="repLateness">-</div></div><span class="kpi-icon warning"><i class="bi bi-alarm"></i></span></div></div>
+    <div class="col-md-3"><div class="kpi-card"><div><div class="kpi-label">Changeover (min)</div><div class="kpi-value" id="repChangeover">-</div></div><span class="kpi-icon indigo"><i class="bi bi-shuffle"></i></span></div></div>
+    <div class="col-md-3"><div class="kpi-card"><div><div class="kpi-label">Avg Utilization</div><div class="kpi-value" id="repAvgUtil">-</div></div><span class="kpi-icon success"><i class="bi bi-graph-up-arrow"></i></span></div></div>
+</div>
+
+<div class="row g-3">
+    <div class="col-lg-6">
+        <div class="enterprise-card h-100">
+            <div class="card-header"><span>Run Summary Metrics</span></div>
+            <div class="card-body" id="repSummaryDetails">Select a run to view breakdown.</div>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="enterprise-card h-100">
+            <div class="card-header"><span>Tooling Assets & Capacity</span></div>
+            <div class="table-responsive">
+                <table class="table table-enterprise">
+                    <thead><tr><th>Tool ID</th><th>Name</th><th>Type</th><th>Qty</th><th>Available</th></tr></thead>
+                    <tbody id="repToolingBody"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,452 @@
+[
+  {
+    "id": 1,
+    "operation_code": "OP-STD-001",
+    "machine_id": "MACH-001",
+    "efficiency_factor": 0.95,
+    "is_preferred": true,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 2,
+    "operation_code": "OP-STD-001",
+    "machine_id": "MACH-009",
+    "efficiency_factor": 0.95,
+    "is_preferred": false,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 3,
+    "operation_code": "OP-STD-001",
+    "machine_id": "MACH-017",
+    "efficiency_factor": 0.95,
+    "is_preferred": false,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 4,
+    "operation_code": "OP-STD-001",
+    "machine_id": "MACH-025",
+    "efficiency_factor": 1.05,
+    "is_preferred": false,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 5,
+    "operation_code": "OP-STD-001",
+    "machine_id": "MACH-033",
+    "efficiency_factor": 1.05,
+    "is_preferred": false,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 6,
+    "operation_code": "OP-STD-002",
+    "machine_id": "MACH-002",
+    "efficiency_factor": 1.1,
+    "is_preferred": true,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 7,
+    "operation_code": "OP-STD-002",
+    "machine_id": "MACH-003",
+    "efficiency_factor": 1.05,
+    "is_preferred": false,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 8,
+    "operation_code": "OP-STD-002",
+    "machine_id": "MACH-010",
+    "efficiency_factor": 1.0,
+    "is_preferred": false,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 9,
+    "operation_code": "OP-STD-002",
+    "machine_id": "MACH-011",
+    "efficiency_factor": 1.05,
+    "is_preferred": false,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 10,
+    "operation_code": "OP-STD-002",
+    "machine_id": "MACH-018",
+    "efficiency_factor": 1.0,
+    "is_preferred": false,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 11,
+    "operation_code": "OP-STD-002",
+    "machine_id": "MACH-019",
+    "efficiency_factor": 1.05,
+    "is_preferred": false,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 12,
+    "operation_code": "OP-STD-002",
+    "machine_id": "MACH-026",
+    "efficiency_factor": 1.1,
+    "is_preferred": false,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 13,
+    "operation_code": "OP-STD-002",
+    "machine_id": "MACH-027",
+    "efficiency_factor": 1.1,
+    "is_preferred": false,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 14,
+    "operation_code": "OP-STD-002",
+    "machine_id": "MACH-034",
+    "efficiency_factor": 1.05,
+    "is_preferred": false,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 15,
+    "operation_code": "OP-STD-002",
+    "machine_id": "MACH-035",
+    "efficiency_factor": 1.0,
+    "is_preferred": false,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 16,
+    "operation_code": "OP-STD-003",
+    "machine_id": "MACH-002",
+    "efficiency_factor": 1.1,
+    "is_preferred": true,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 17,
+    "operation_code": "OP-STD-003",
+    "machine_id": "MACH-003",
+    "efficiency_factor": 1.05,
+    "is_preferred": false,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 18,
+    "operation_code": "OP-STD-003",
+    "machine_id": "MACH-010",
+    "efficiency_factor": 1.1,
+    "is_preferred": false,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 19,
+    "operation_code": "OP-STD-003",
+    "machine_id": "MACH-011",
+    "efficiency_factor": 0.95,
+    "is_preferred": false,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 20,
+    "operation_code": "OP-STD-003",
+    "machine_id": "MACH-018",
+    "efficiency_factor": 0.95,
+    "is_preferred": false,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 21,
+    "operation_code": "OP-STD-003",
+    "machine_id": "MACH-019",
+    "efficiency_factor": 0.95,
+    "is_preferred": false,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 22,
+    "operation_code": "OP-STD-003",
+    "machine_id": "MACH-026",
+    "efficiency_factor": 1.0,
+    "is_preferred": false,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 23,
+    "operation_code": "OP-STD-003",
+    "machine_id": "MACH-027",
+    "efficiency_factor": 0.95,
+    "is_preferred": false,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 24,
+    "operation_code": "OP-STD-003",
+    "machine_id": "MACH-034",
+    "efficiency_factor": 1.05,
+    "is_preferred": false,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 25,
+    "operation_code": "OP-STD-003",
+    "machine_id": "MACH-035",
+    "efficiency_factor": 1.0,
+    "is_preferred": false,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 26,
+    "operation_code": "OP-STD-004",
+    "machine_id": "MACH-004",
+    "efficiency_factor": 0.95,
+    "is_preferred": true,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 27,
+    "operation_code": "OP-STD-004",
+    "machine_id": "MACH-012",
+    "efficiency_factor": 0.95,
+    "is_preferred": false,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 28,
+    "operation_code": "OP-STD-004",
+    "machine_id": "MACH-020",
+    "efficiency_factor": 0.95,
+    "is_preferred": false,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 29,
+    "operation_code": "OP-STD-004",
+    "machine_id": "MACH-028",
+    "efficiency_factor": 1.1,
+    "is_preferred": false,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 30,
+    "operation_code": "OP-STD-004",
+    "machine_id": "MACH-036",
+    "efficiency_factor": 0.95,
+    "is_preferred": false,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 31,
+    "operation_code": "OP-STD-005",
+    "machine_id": "MACH-005",
+    "efficiency_factor": 1.05,
+    "is_preferred": true,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 32,
+    "operation_code": "OP-STD-005",
+    "machine_id": "MACH-013",
+    "efficiency_factor": 1.05,
+    "is_preferred": false,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 33,
+    "operation_code": "OP-STD-005",
+    "machine_id": "MACH-021",
+    "efficiency_factor": 0.95,
+    "is_preferred": false,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 34,
+    "operation_code": "OP-STD-005",
+    "machine_id": "MACH-029",
+    "efficiency_factor": 1.0,
+    "is_preferred": false,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 35,
+    "operation_code": "OP-STD-005",
+    "machine_id": "MACH-037",
+    "efficiency_factor": 1.05,
+    "is_preferred": false,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 36,
+    "operation_code": "OP-STD-006",
+    "machine_id": "MACH-006",
+    "efficiency_factor": 1.05,
+    "is_preferred": true,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 37,
+    "operation_code": "OP-STD-006",
+    "machine_id": "MACH-014",
+    "efficiency_factor": 0.95,
+    "is_preferred": false,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 38,
+    "operation_code": "OP-STD-006",
+    "machine_id": "MACH-022",
+    "efficiency_factor": 1.0,
+    "is_preferred": false,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 39,
+    "operation_code": "OP-STD-006",
+    "machine_id": "MACH-030",
+    "efficiency_factor": 1.1,
+    "is_preferred": false,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 40,
+    "operation_code": "OP-STD-006",
+    "machine_id": "MACH-038",
+    "efficiency_factor": 1.0,
+    "is_preferred": false,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 41,
+    "operation_code": "OP-STD-007",
+    "machine_id": "MACH-007",
+    "efficiency_factor": 1.1,
+    "is_preferred": true,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 42,
+    "operation_code": "OP-STD-007",
+    "machine_id": "MACH-015",
+    "efficiency_factor": 1.0,
+    "is_preferred": false,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 43,
+    "operation_code": "OP-STD-007",
+    "machine_id": "MACH-023",
+    "efficiency_factor": 1.1,
+    "is_preferred": false,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 44,
+    "operation_code": "OP-STD-007",
+    "machine_id": "MACH-031",
+    "efficiency_factor": 1.05,
+    "is_preferred": false,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 45,
+    "operation_code": "OP-STD-007",
+    "machine_id": "MACH-039",
+    "efficiency_factor": 1.0,
+    "is_preferred": false,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 46,
+    "operation_code": "OP-STD-008",
+    "machine_id": "MACH-008",
+    "efficiency_factor": 0.95,
+    "is_preferred": true,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 47,
+    "operation_code": "OP-STD-008",
+    "machine_id": "MACH-016",
+    "efficiency_factor": 1.0,
+    "is_preferred": false,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 48,
+    "operation_code": "OP-STD-008",
+    "machine_id": "MACH-024",
+    "efficiency_factor": 0.95,
+    "is_preferred": false,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 49,
+    "operation_code": "OP-STD-008",
+    "machine_id": "MACH-032",
+    "efficiency_factor": 1.0,
+    "is_preferred": false,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "id": 50,
+    "operation_code": "OP-STD-008",
+    "machine_id": "MACH-040",
+    "efficiency_factor": 1.0,
+    "is_preferred": false,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  }
+]

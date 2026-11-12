@@ -1,0 +1,5 @@
+user_id,username,email,full_name,hashed_password,is_active,last_login_at,created_at,updated_at
+USR-001,admin,admin@plantops.local,OT/IT Admin,$2b$12$HrXZmeHHouSMY8.VNhPjc.lxb47odNAwtjfY901zVg8tv8v475Zx6,True,,2026-11-16 08:00:00,2026-11-16 08:00:00
+USR-002,planner,planner@plantops.local,Lead Production Planner,$2b$12$HrXZmeHHouSMY8.VNhPjc.lxb47odNAwtjfY901zVg8tv8v475Zx6,True,,2026-11-16 08:00:00,2026-11-16 08:00:00
+USR-003,operator,operator@plantops.local,Floor Plant Operator,$2b$12$HrXZmeHHouSMY8.VNhPjc.lxb47odNAwtjfY901zVg8tv8v475Zx6,True,,2026-11-16 08:00:00,2026-11-16 08:00:00
+USR-004,engineer,engineer@plantops.local,Maintenance & Quality Engineer,$2b$12$HrXZmeHHouSMY8.VNhPjc.lxb47odNAwtjfY901zVg8tv8v475Zx6,True,,2026-11-16 08:00:00,2026-11-16 08:00:00

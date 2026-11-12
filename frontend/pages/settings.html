@@ -1,0 +1,57 @@
+<!-- System Settings Page -->
+<div class="d-flex flex-wrap align-items-center justify-content-between gap-2 mb-3">
+    <div>
+        <h4 class="fw-bold mb-0">System & Optimization Settings</h4>
+        <p class="text-muted small mb-0">Configure plant facility identity, solver runtime limit, default optimization weights, and standard shift hours.</p>
+    </div>
+</div>
+
+<div class="row g-3">
+    <div class="col-lg-6">
+        <div class="enterprise-card">
+            <div class="card-header"><span>Plant & Scheduler Configuration</span></div>
+            <div class="card-body">
+                <form id="settingsForm" class="row g-3">
+                    <div class="col-md-12">
+                        <label class="form-label small fw-semibold">Plant Name</label>
+                        <input id="setPlantName" class="form-control form-control-sm" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label small fw-semibold">Default Solver Limit (s)</label>
+                        <input type="number" id="setSolverLimit" class="form-control form-control-sm" min="1" max="300" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label small fw-semibold">Default Shift Hours</label>
+                        <input id="setShiftHours" class="form-control form-control-sm" required>
+                    </div>
+                    <div class="col-md-4">
+                        <label class="form-label small fw-semibold">Makespan Weight</label>
+                        <input type="number" step="0.5" id="setWMakespan" class="form-control form-control-sm" required>
+                    </div>
+                    <div class="col-md-4">
+                        <label class="form-label small fw-semibold">Lateness Weight</label>
+                        <input type="number" step="0.5" id="setWLateness" class="form-control form-control-sm" required>
+                    </div>
+                    <div class="col-md-4">
+                        <label class="form-label small fw-semibold">Changeover Weight</label>
+                        <input type="number" step="0.5" id="setWChangeover" class="form-control form-control-sm" required>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-indigo btn-sm">Save System Settings</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="enterprise-card h-100">
+            <div class="card-header"><span>Environment & RBAC Summary</span></div>
+            <div class="card-body small text-muted">
+                <p><strong>Active API Endpoint:</strong> <code id="setApiEndpoint">-</code></p>
+                <p><strong>Signed-In Operator:</strong> <span id="setCurrentActor">-</span></p>
+                <p><strong>Database Dialect:</strong> Configured via SQLAlchemy <code>DATABASE_URL</code></p>
+                <p class="mb-0">Changes made on this page are persisted via <code>PUT /api/settings</code> (OT/IT Administrator only) and recorded in the Audit Log.</p>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# Environment Secrets
+.env
+*.local
+
+# IDE
+.vscode/
+.idea/
+
+# Generated Local Logs & DBs
+*.log
+*.sqlite3
+

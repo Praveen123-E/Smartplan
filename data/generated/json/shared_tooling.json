@@ -1,0 +1,62 @@
+[
+  {
+    "tooling_id": "TOOL-001",
+    "name": "Precision Fixture Set 01",
+    "tool_type": "Jig",
+    "total_quantity": 3,
+    "available_quantity": 3,
+    "status": "Available",
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "tooling_id": "TOOL-002",
+    "name": "Precision Fixture Set 02",
+    "tool_type": "Calibration Gauge",
+    "total_quantity": 3,
+    "available_quantity": 3,
+    "status": "Available",
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "tooling_id": "TOOL-003",
+    "name": "Precision Fixture Set 03",
+    "tool_type": "Die",
+    "total_quantity": 3,
+    "available_quantity": 3,
+    "status": "Available",
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "tooling_id": "TOOL-004",
+    "name": "Precision Fixture Set 04",
+    "tool_type": "Fixture",
+    "total_quantity": 3,
+    "available_quantity": 3,
+    "status": "Available",
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "tooling_id": "TOOL-005",
+    "name": "Precision Fixture Set 05",
+    "tool_type": "Fixture",
+    "total_quantity": 2,
+    "available_quantity": 2,
+    "status": "Available",
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "tooling_id": "TOOL-006",
+    "name": "Precision Fixture Set 06",
+    "tool_type": "Calibration Gauge",
+    "total_quantity": 2,
+    "available_quantity": 2,
+    "status": "Available",
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  }
+]

@@ -1,0 +1,9 @@
+operation_code,name,operation_type,description,default_setup_minutes,default_run_minutes_per_unit,required_labor_count,tooling_id,status,created_at,updated_at
+OP-STD-001,Laser Blank Cutting,Cutting,Standard cutting step: Laser Blank Cutting,10,1.5,1,TOOL-001,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+OP-STD-002,CNC Precision Turning,Machining,Standard machining step: CNC Precision Turning,15,2.5,1,TOOL-002,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+OP-STD-003,CNC Multi-Axis Milling,Machining,Standard machining step: CNC Multi-Axis Milling,20,3.0,1,TOOL-003,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+OP-STD-004,Precision Drilling,Drilling,Standard drilling step: Precision Drilling,10,1.5,1,,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+OP-STD-005,Surface Grinding,Grinding,Standard grinding step: Surface Grinding,15,2.0,1,,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+OP-STD-006,Robotic Welding,Welding,Standard welding step: Robotic Welding,15,2.2,2,TOOL-004,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+OP-STD-007,Sub-Assembly,Assembly,Standard assembly step: Sub-Assembly,10,2.0,2,TOOL-005,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+OP-STD-008,CMM Quality Inspection,Inspection,Standard inspection step: CMM Quality Inspection,5,1.0,1,TOOL-006,Active,2026-11-16 08:00:00,2026-11-16 08:00:00

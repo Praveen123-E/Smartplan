@@ -1,0 +1,41 @@
+id,entity_type,entity_id,previous_state,new_state,changed_by,reason,created_at
+1,ProductionOrder,ORD-2026-000001,Draft,Released,planner,Order released for planning,2026-11-16 08:00:00
+2,ProductionOrder,ORD-2026-000001,Released,Scheduled,planner,Baseline planning transition,2026-11-16 08:00:00
+3,ProductionOrder,ORD-2026-000002,Draft,Released,planner,Order released for planning,2026-11-16 08:00:00
+4,ProductionOrder,ORD-2026-000002,Released,Scheduled,planner,Baseline planning transition,2026-11-16 08:00:00
+5,ProductionOrder,ORD-2026-000003,Draft,Released,planner,Order released for planning,2026-11-16 08:00:00
+6,ProductionOrder,ORD-2026-000003,Released,Scheduled,planner,Baseline planning transition,2026-11-16 08:00:00
+7,ProductionOrder,ORD-2026-000004,Draft,Released,planner,Order released for planning,2026-11-16 08:00:00
+8,ProductionOrder,ORD-2026-000004,Released,Scheduled,planner,Baseline planning transition,2026-11-16 08:00:00
+9,ProductionOrder,ORD-2026-000005,Draft,Released,planner,Order released for planning,2026-11-16 08:00:00
+10,ProductionOrder,ORD-2026-000005,Released,Scheduled,planner,Baseline planning transition,2026-11-16 08:00:00
+11,ProductionOrder,ORD-2026-000006,Draft,Released,planner,Order released for planning,2026-11-16 08:00:00
+12,ProductionOrder,ORD-2026-000006,Released,Scheduled,planner,Baseline planning transition,2026-11-16 08:00:00
+13,ProductionOrder,ORD-2026-000007,Draft,Released,planner,Order released for planning,2026-11-16 08:00:00
+14,ProductionOrder,ORD-2026-000007,Released,Scheduled,planner,Baseline planning transition,2026-11-16 08:00:00
+15,ProductionOrder,ORD-2026-000008,Draft,Released,planner,Order released for planning,2026-11-16 08:00:00
+16,ProductionOrder,ORD-2026-000008,Released,Scheduled,planner,Baseline planning transition,2026-11-16 08:00:00
+17,ProductionOrder,ORD-2026-000009,Draft,Released,planner,Order released for planning,2026-11-16 08:00:00
+18,ProductionOrder,ORD-2026-000009,Released,Scheduled,planner,Baseline planning transition,2026-11-16 08:00:00
+19,ProductionOrder,ORD-2026-000010,Draft,Released,planner,Order released for planning,2026-11-16 08:00:00
+20,ProductionOrder,ORD-2026-000010,Released,Scheduled,planner,Baseline planning transition,2026-11-16 08:00:00
+21,ProductionOrder,ORD-2026-000011,Draft,Released,planner,Order released for planning,2026-11-16 08:00:00
+22,ProductionOrder,ORD-2026-000011,Released,Scheduled,planner,Baseline planning transition,2026-11-16 08:00:00
+23,ProductionOrder,ORD-2026-000012,Draft,Released,planner,Order released for planning,2026-11-16 08:00:00
+24,ProductionOrder,ORD-2026-000012,Released,Scheduled,planner,Baseline planning transition,2026-11-16 08:00:00
+25,ProductionOrder,ORD-2026-000013,Draft,Released,planner,Order released for planning,2026-11-16 08:00:00
+26,ProductionOrder,ORD-2026-000013,Released,Scheduled,planner,Baseline planning transition,2026-11-16 08:00:00
+27,ProductionOrder,ORD-2026-000014,Draft,Released,planner,Order released for planning,2026-11-16 08:00:00
+28,ProductionOrder,ORD-2026-000014,Released,Scheduled,planner,Baseline planning transition,2026-11-16 08:00:00
+29,ProductionOrder,ORD-2026-000015,Draft,Released,planner,Order released for planning,2026-11-16 08:00:00
+30,ProductionOrder,ORD-2026-000015,Released,Scheduled,planner,Baseline planning transition,2026-11-16 08:00:00
+31,ProductionOrder,ORD-2026-000016,Draft,Released,planner,Order released for planning,2026-11-16 08:00:00
+32,ProductionOrder,ORD-2026-000016,Released,Scheduled,planner,Baseline planning transition,2026-11-16 08:00:00
+33,ProductionOrder,ORD-2026-000017,Draft,Released,planner,Order released for planning,2026-11-16 08:00:00
+34,ProductionOrder,ORD-2026-000017,Released,Scheduled,planner,Baseline planning transition,2026-11-16 08:00:00
+35,ProductionOrder,ORD-2026-000018,Draft,Released,planner,Order released for planning,2026-11-16 08:00:00
+36,ProductionOrder,ORD-2026-000018,Released,Scheduled,planner,Baseline planning transition,2026-11-16 08:00:00
+37,ProductionOrder,ORD-2026-000019,Draft,Released,planner,Order released for planning,2026-11-16 08:00:00
+38,ProductionOrder,ORD-2026-000019,Released,Scheduled,planner,Baseline planning transition,2026-11-16 08:00:00
+39,ProductionOrder,ORD-2026-000020,Draft,Released,planner,Order released for planning,2026-11-16 08:00:00
+40,ProductionOrder,ORD-2026-000020,Released,Scheduled,planner,Baseline planning transition,2026-11-16 08:00:00

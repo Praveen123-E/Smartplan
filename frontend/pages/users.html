@@ -1,0 +1,38 @@
+<!-- User Management & RBAC Page -->
+<div class="d-flex flex-wrap align-items-center justify-content-between gap-2 mb-3">
+    <div>
+        <h4 class="fw-bold mb-0">User Management & Role-Based Access</h4>
+        <p class="text-muted small mb-0">Administer plant accounts, assign RBAC roles, and toggle active access.</p>
+    </div>
+    <button class="btn btn-indigo btn-sm" id="btnNewUser"><i class="bi bi-person-plus me-1"></i>Create User</button>
+</div>
+
+<div class="enterprise-card">
+    <div class="table-responsive">
+        <table class="table table-enterprise table-hover">
+            <thead><tr><th>User ID</th><th>Username</th><th>Full Name</th><th>Email</th><th>Roles</th><th>Status</th><th>Actions</th></tr></thead>
+            <tbody id="usersTableBody"></tbody>
+        </table>
+    </div>
+</div>
+
+<div class="modal fade" id="userModal" tabindex="-1">
+    <div class="modal-dialog">
+        <form class="modal-content" id="userForm">
+            <div class="modal-header"><h5 class="modal-title fw-bold">Create PlantOps User</h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div>
+            <div class="modal-body row g-2">
+                <div class="col-md-6"><label class="form-label small fw-semibold">Username</label><input id="usrUsername" class="form-control form-control-sm" required></div>
+                <div class="col-md-6"><label class="form-label small fw-semibold">Role</label>
+                    <select id="usrRole" class="form-select form-select-sm">
+                        <option>Production Planner</option><option>Plant Operator</option>
+                        <option>Maintenance/Quality Engineer</option><option>Admin</option>
+                    </select>
+                </div>
+                <div class="col-12"><label class="form-label small fw-semibold">Full Name</label><input id="usrFullName" class="form-control form-control-sm" required></div>
+                <div class="col-md-6"><label class="form-label small fw-semibold">Email</label><input type="email" id="usrEmail" class="form-control form-control-sm" required></div>
+                <div class="col-md-6"><label class="form-label small fw-semibold">Password</label><input type="password" id="usrPassword" class="form-control form-control-sm" minlength="6" required></div>
+            </div>
+            <div class="modal-footer"><button class="btn btn-indigo btn-sm" type="submit">Create User</button></div>
+        </form>
+    </div>
+</div>

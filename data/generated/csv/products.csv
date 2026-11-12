@@ -1,0 +1,101 @@
+product_id,sku,name,category,unit_of_measure,standard_batch_size,description,status,created_at,updated_at
+PROD-2026-000001,SKU-0001,Powertrain Unit Model 001,Powertrain,pcs,25,Synthetic manufactured SKU SKU-0001 in Powertrain.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000002,SKU-0002,Hydraulic Unit Model 002,Hydraulic Assembly,pcs,25,Synthetic manufactured SKU SKU-0002 in Hydraulic Assembly.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000003,SKU-0003,Precision Unit Model 003,Precision Fasteners,pcs,20,Synthetic manufactured SKU SKU-0003 in Precision Fasteners.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000004,SKU-0004,Chassis Unit Model 004,Chassis Components,pcs,10,Synthetic manufactured SKU SKU-0004 in Chassis Components.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000005,SKU-0005,Thermal Unit Model 005,Thermal Modules,pcs,20,Synthetic manufactured SKU SKU-0005 in Thermal Modules.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000006,SKU-0006,Powertrain Unit Model 006,Powertrain,pcs,20,Synthetic manufactured SKU SKU-0006 in Powertrain.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000007,SKU-0007,Hydraulic Unit Model 007,Hydraulic Assembly,pcs,20,Synthetic manufactured SKU SKU-0007 in Hydraulic Assembly.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000008,SKU-0008,Precision Unit Model 008,Precision Fasteners,pcs,10,Synthetic manufactured SKU SKU-0008 in Precision Fasteners.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000009,SKU-0009,Chassis Unit Model 009,Chassis Components,pcs,20,Synthetic manufactured SKU SKU-0009 in Chassis Components.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000010,SKU-0010,Thermal Unit Model 010,Thermal Modules,pcs,10,Synthetic manufactured SKU SKU-0010 in Thermal Modules.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000011,SKU-0011,Powertrain Unit Model 011,Powertrain,pcs,20,Synthetic manufactured SKU SKU-0011 in Powertrain.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000012,SKU-0012,Hydraulic Unit Model 012,Hydraulic Assembly,pcs,20,Synthetic manufactured SKU SKU-0012 in Hydraulic Assembly.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000013,SKU-0013,Precision Unit Model 013,Precision Fasteners,pcs,25,Synthetic manufactured SKU SKU-0013 in Precision Fasteners.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000014,SKU-0014,Chassis Unit Model 014,Chassis Components,pcs,10,Synthetic manufactured SKU SKU-0014 in Chassis Components.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000015,SKU-0015,Thermal Unit Model 015,Thermal Modules,pcs,20,Synthetic manufactured SKU SKU-0015 in Thermal Modules.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000016,SKU-0016,Powertrain Unit Model 016,Powertrain,pcs,20,Synthetic manufactured SKU SKU-0016 in Powertrain.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000017,SKU-0017,Hydraulic Unit Model 017,Hydraulic Assembly,pcs,10,Synthetic manufactured SKU SKU-0017 in Hydraulic Assembly.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000018,SKU-0018,Precision Unit Model 018,Precision Fasteners,pcs,20,Synthetic manufactured SKU SKU-0018 in Precision Fasteners.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000019,SKU-0019,Chassis Unit Model 019,Chassis Components,pcs,50,Synthetic manufactured SKU SKU-0019 in Chassis Components.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000020,SKU-0020,Thermal Unit Model 020,Thermal Modules,pcs,10,Synthetic manufactured SKU SKU-0020 in Thermal Modules.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000021,SKU-0021,Powertrain Unit Model 021,Powertrain,pcs,10,Synthetic manufactured SKU SKU-0021 in Powertrain.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000022,SKU-0022,Hydraulic Unit Model 022,Hydraulic Assembly,pcs,25,Synthetic manufactured SKU SKU-0022 in Hydraulic Assembly.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000023,SKU-0023,Precision Unit Model 023,Precision Fasteners,pcs,20,Synthetic manufactured SKU SKU-0023 in Precision Fasteners.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000024,SKU-0024,Chassis Unit Model 024,Chassis Components,pcs,25,Synthetic manufactured SKU SKU-0024 in Chassis Components.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000025,SKU-0025,Thermal Unit Model 025,Thermal Modules,pcs,50,Synthetic manufactured SKU SKU-0025 in Thermal Modules.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000026,SKU-0026,Powertrain Unit Model 026,Powertrain,pcs,10,Synthetic manufactured SKU SKU-0026 in Powertrain.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000027,SKU-0027,Hydraulic Unit Model 027,Hydraulic Assembly,pcs,10,Synthetic manufactured SKU SKU-0027 in Hydraulic Assembly.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000028,SKU-0028,Precision Unit Model 028,Precision Fasteners,pcs,20,Synthetic manufactured SKU SKU-0028 in Precision Fasteners.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000029,SKU-0029,Chassis Unit Model 029,Chassis Components,pcs,20,Synthetic manufactured SKU SKU-0029 in Chassis Components.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000030,SKU-0030,Thermal Unit Model 030,Thermal Modules,pcs,50,Synthetic manufactured SKU SKU-0030 in Thermal Modules.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000031,SKU-0031,Powertrain Unit Model 031,Powertrain,pcs,10,Synthetic manufactured SKU SKU-0031 in Powertrain.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000032,SKU-0032,Hydraulic Unit Model 032,Hydraulic Assembly,pcs,10,Synthetic manufactured SKU SKU-0032 in Hydraulic Assembly.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000033,SKU-0033,Precision Unit Model 033,Precision Fasteners,pcs,20,Synthetic manufactured SKU SKU-0033 in Precision Fasteners.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000034,SKU-0034,Chassis Unit Model 034,Chassis Components,pcs,25,Synthetic manufactured SKU SKU-0034 in Chassis Components.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000035,SKU-0035,Thermal Unit Model 035,Thermal Modules,pcs,10,Synthetic manufactured SKU SKU-0035 in Thermal Modules.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000036,SKU-0036,Powertrain Unit Model 036,Powertrain,pcs,20,Synthetic manufactured SKU SKU-0036 in Powertrain.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000037,SKU-0037,Hydraulic Unit Model 037,Hydraulic Assembly,pcs,50,Synthetic manufactured SKU SKU-0037 in Hydraulic Assembly.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000038,SKU-0038,Precision Unit Model 038,Precision Fasteners,pcs,50,Synthetic manufactured SKU SKU-0038 in Precision Fasteners.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000039,SKU-0039,Chassis Unit Model 039,Chassis Components,pcs,10,Synthetic manufactured SKU SKU-0039 in Chassis Components.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000040,SKU-0040,Thermal Unit Model 040,Thermal Modules,pcs,50,Synthetic manufactured SKU SKU-0040 in Thermal Modules.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000041,SKU-0041,Powertrain Unit Model 041,Powertrain,pcs,50,Synthetic manufactured SKU SKU-0041 in Powertrain.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000042,SKU-0042,Hydraulic Unit Model 042,Hydraulic Assembly,pcs,10,Synthetic manufactured SKU SKU-0042 in Hydraulic Assembly.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000043,SKU-0043,Precision Unit Model 043,Precision Fasteners,pcs,20,Synthetic manufactured SKU SKU-0043 in Precision Fasteners.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000044,SKU-0044,Chassis Unit Model 044,Chassis Components,pcs,50,Synthetic manufactured SKU SKU-0044 in Chassis Components.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000045,SKU-0045,Thermal Unit Model 045,Thermal Modules,pcs,20,Synthetic manufactured SKU SKU-0045 in Thermal Modules.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000046,SKU-0046,Powertrain Unit Model 046,Powertrain,pcs,10,Synthetic manufactured SKU SKU-0046 in Powertrain.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000047,SKU-0047,Hydraulic Unit Model 047,Hydraulic Assembly,pcs,10,Synthetic manufactured SKU SKU-0047 in Hydraulic Assembly.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000048,SKU-0048,Precision Unit Model 048,Precision Fasteners,pcs,25,Synthetic manufactured SKU SKU-0048 in Precision Fasteners.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000049,SKU-0049,Chassis Unit Model 049,Chassis Components,pcs,10,Synthetic manufactured SKU SKU-0049 in Chassis Components.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000050,SKU-0050,Thermal Unit Model 050,Thermal Modules,pcs,25,Synthetic manufactured SKU SKU-0050 in Thermal Modules.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000051,SKU-0051,Powertrain Unit Model 051,Powertrain,pcs,20,Synthetic manufactured SKU SKU-0051 in Powertrain.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000052,SKU-0052,Hydraulic Unit Model 052,Hydraulic Assembly,pcs,10,Synthetic manufactured SKU SKU-0052 in Hydraulic Assembly.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000053,SKU-0053,Precision Unit Model 053,Precision Fasteners,pcs,10,Synthetic manufactured SKU SKU-0053 in Precision Fasteners.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000054,SKU-0054,Chassis Unit Model 054,Chassis Components,pcs,10,Synthetic manufactured SKU SKU-0054 in Chassis Components.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000055,SKU-0055,Thermal Unit Model 055,Thermal Modules,pcs,50,Synthetic manufactured SKU SKU-0055 in Thermal Modules.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000056,SKU-0056,Powertrain Unit Model 056,Powertrain,pcs,20,Synthetic manufactured SKU SKU-0056 in Powertrain.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000057,SKU-0057,Hydraulic Unit Model 057,Hydraulic Assembly,pcs,50,Synthetic manufactured SKU SKU-0057 in Hydraulic Assembly.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000058,SKU-0058,Precision Unit Model 058,Precision Fasteners,pcs,50,Synthetic manufactured SKU SKU-0058 in Precision Fasteners.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000059,SKU-0059,Chassis Unit Model 059,Chassis Components,pcs,10,Synthetic manufactured SKU SKU-0059 in Chassis Components.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000060,SKU-0060,Thermal Unit Model 060,Thermal Modules,pcs,10,Synthetic manufactured SKU SKU-0060 in Thermal Modules.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000061,SKU-0061,Powertrain Unit Model 061,Powertrain,pcs,25,Synthetic manufactured SKU SKU-0061 in Powertrain.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000062,SKU-0062,Hydraulic Unit Model 062,Hydraulic Assembly,pcs,10,Synthetic manufactured SKU SKU-0062 in Hydraulic Assembly.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000063,SKU-0063,Precision Unit Model 063,Precision Fasteners,pcs,50,Synthetic manufactured SKU SKU-0063 in Precision Fasteners.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000064,SKU-0064,Chassis Unit Model 064,Chassis Components,pcs,10,Synthetic manufactured SKU SKU-0064 in Chassis Components.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000065,SKU-0065,Thermal Unit Model 065,Thermal Modules,pcs,50,Synthetic manufactured SKU SKU-0065 in Thermal Modules.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000066,SKU-0066,Powertrain Unit Model 066,Powertrain,pcs,10,Synthetic manufactured SKU SKU-0066 in Powertrain.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000067,SKU-0067,Hydraulic Unit Model 067,Hydraulic Assembly,pcs,20,Synthetic manufactured SKU SKU-0067 in Hydraulic Assembly.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000068,SKU-0068,Precision Unit Model 068,Precision Fasteners,pcs,10,Synthetic manufactured SKU SKU-0068 in Precision Fasteners.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000069,SKU-0069,Chassis Unit Model 069,Chassis Components,pcs,20,Synthetic manufactured SKU SKU-0069 in Chassis Components.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000070,SKU-0070,Thermal Unit Model 070,Thermal Modules,pcs,25,Synthetic manufactured SKU SKU-0070 in Thermal Modules.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000071,SKU-0071,Powertrain Unit Model 071,Powertrain,pcs,25,Synthetic manufactured SKU SKU-0071 in Powertrain.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000072,SKU-0072,Hydraulic Unit Model 072,Hydraulic Assembly,pcs,10,Synthetic manufactured SKU SKU-0072 in Hydraulic Assembly.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000073,SKU-0073,Precision Unit Model 073,Precision Fasteners,pcs,25,Synthetic manufactured SKU SKU-0073 in Precision Fasteners.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000074,SKU-0074,Chassis Unit Model 074,Chassis Components,pcs,50,Synthetic manufactured SKU SKU-0074 in Chassis Components.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000075,SKU-0075,Thermal Unit Model 075,Thermal Modules,pcs,10,Synthetic manufactured SKU SKU-0075 in Thermal Modules.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000076,SKU-0076,Powertrain Unit Model 076,Powertrain,pcs,10,Synthetic manufactured SKU SKU-0076 in Powertrain.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000077,SKU-0077,Hydraulic Unit Model 077,Hydraulic Assembly,pcs,10,Synthetic manufactured SKU SKU-0077 in Hydraulic Assembly.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000078,SKU-0078,Precision Unit Model 078,Precision Fasteners,pcs,25,Synthetic manufactured SKU SKU-0078 in Precision Fasteners.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000079,SKU-0079,Chassis Unit Model 079,Chassis Components,pcs,10,Synthetic manufactured SKU SKU-0079 in Chassis Components.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000080,SKU-0080,Thermal Unit Model 080,Thermal Modules,pcs,10,Synthetic manufactured SKU SKU-0080 in Thermal Modules.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000081,SKU-0081,Powertrain Unit Model 081,Powertrain,pcs,10,Synthetic manufactured SKU SKU-0081 in Powertrain.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000082,SKU-0082,Hydraulic Unit Model 082,Hydraulic Assembly,pcs,50,Synthetic manufactured SKU SKU-0082 in Hydraulic Assembly.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000083,SKU-0083,Precision Unit Model 083,Precision Fasteners,pcs,25,Synthetic manufactured SKU SKU-0083 in Precision Fasteners.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000084,SKU-0084,Chassis Unit Model 084,Chassis Components,pcs,50,Synthetic manufactured SKU SKU-0084 in Chassis Components.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000085,SKU-0085,Thermal Unit Model 085,Thermal Modules,pcs,10,Synthetic manufactured SKU SKU-0085 in Thermal Modules.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000086,SKU-0086,Powertrain Unit Model 086,Powertrain,pcs,50,Synthetic manufactured SKU SKU-0086 in Powertrain.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000087,SKU-0087,Hydraulic Unit Model 087,Hydraulic Assembly,pcs,25,Synthetic manufactured SKU SKU-0087 in Hydraulic Assembly.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000088,SKU-0088,Precision Unit Model 088,Precision Fasteners,pcs,20,Synthetic manufactured SKU SKU-0088 in Precision Fasteners.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000089,SKU-0089,Chassis Unit Model 089,Chassis Components,pcs,25,Synthetic manufactured SKU SKU-0089 in Chassis Components.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000090,SKU-0090,Thermal Unit Model 090,Thermal Modules,pcs,50,Synthetic manufactured SKU SKU-0090 in Thermal Modules.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000091,SKU-0091,Powertrain Unit Model 091,Powertrain,pcs,25,Synthetic manufactured SKU SKU-0091 in Powertrain.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000092,SKU-0092,Hydraulic Unit Model 092,Hydraulic Assembly,pcs,25,Synthetic manufactured SKU SKU-0092 in Hydraulic Assembly.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000093,SKU-0093,Precision Unit Model 093,Precision Fasteners,pcs,25,Synthetic manufactured SKU SKU-0093 in Precision Fasteners.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000094,SKU-0094,Chassis Unit Model 094,Chassis Components,pcs,50,Synthetic manufactured SKU SKU-0094 in Chassis Components.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000095,SKU-0095,Thermal Unit Model 095,Thermal Modules,pcs,25,Synthetic manufactured SKU SKU-0095 in Thermal Modules.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000096,SKU-0096,Powertrain Unit Model 096,Powertrain,pcs,25,Synthetic manufactured SKU SKU-0096 in Powertrain.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000097,SKU-0097,Hydraulic Unit Model 097,Hydraulic Assembly,pcs,20,Synthetic manufactured SKU SKU-0097 in Hydraulic Assembly.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000098,SKU-0098,Precision Unit Model 098,Precision Fasteners,pcs,20,Synthetic manufactured SKU SKU-0098 in Precision Fasteners.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000099,SKU-0099,Chassis Unit Model 099,Chassis Components,pcs,20,Synthetic manufactured SKU SKU-0099 in Chassis Components.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00
+PROD-2026-000100,SKU-0100,Thermal Unit Model 100,Thermal Modules,pcs,50,Synthetic manufactured SKU SKU-0100 in Thermal Modules.,Active,2026-11-16 08:00:00,2026-11-16 08:00:00

@@ -1,0 +1,28 @@
+[
+  {
+    "run_id": "RUN-2026-000001",
+    "run_name": "Baseline Valid Schedule (full)",
+    "solver_status": "Feasible",
+    "objective_value": 56784.0,
+    "best_bound": 11862.0,
+    "execution_duration_seconds": 0.42,
+    "makespan_minutes": 11862,
+    "total_lateness_minutes": 14354,
+    "total_changeover_minutes": 1240,
+    "delayed_order_count": 6,
+    "unscheduled_operation_count": 0,
+    "on_time_delivery_pct": 70.0,
+    "avg_machine_utilization_pct": 20.49,
+    "weight_makespan": 1.0,
+    "weight_lateness": 3.0,
+    "weight_changeover": 1.5,
+    "solver_time_limit_seconds": 30,
+    "infeasibility_reason": null,
+    "triggered_by": "planner",
+    "is_baseline": true,
+    "started_at": "2026-11-16 08:00:00",
+    "completed_at": "2026-11-16 08:00:00",
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  }
+]

@@ -1,0 +1,7 @@
+downtime_id,machine_id,downtime_type,start_time,end_time,reason,reported_by,status,created_at,updated_at
+1,MACH-002,Planned Maintenance,2026-11-18 13:00:00,2026-11-18 15:00:00,Preventive spindle & safety check,maint_eng,Scheduled,2026-11-16 08:00:00,2026-11-16 08:00:00
+2,MACH-003,Calibration,2026-11-19 13:00:00,2026-11-19 15:00:00,Preventive spindle & safety check,maint_eng,Scheduled,2026-11-16 08:00:00,2026-11-16 08:00:00
+3,MACH-004,Planned Maintenance,2026-11-20 13:00:00,2026-11-20 15:00:00,Preventive spindle & safety check,maint_eng,Scheduled,2026-11-16 08:00:00,2026-11-16 08:00:00
+4,MACH-005,Calibration,2026-11-17 13:00:00,2026-11-17 15:00:00,Preventive spindle & safety check,maint_eng,Scheduled,2026-11-16 08:00:00,2026-11-16 08:00:00
+5,MACH-006,Planned Maintenance,2026-11-18 13:00:00,2026-11-18 15:00:00,Preventive spindle & safety check,maint_eng,Scheduled,2026-11-16 08:00:00,2026-11-16 08:00:00
+6,MACH-007,Calibration,2026-11-19 13:00:00,2026-11-19 15:00:00,Preventive spindle & safety check,maint_eng,Scheduled,2026-11-16 08:00:00,2026-11-16 08:00:00

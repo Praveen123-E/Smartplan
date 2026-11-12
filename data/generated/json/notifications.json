@@ -1,0 +1,13 @@
+[
+  {
+    "id": 1,
+    "user_id": "USR-002",
+    "title": "Baseline Schedule Ready",
+    "message": "Baseline run RUN-2026-000001 generated with 70.0% OTD.",
+    "severity": "Info",
+    "is_read": false,
+    "entity_type": "SchedulingRun",
+    "entity_id": "RUN-2026-000001",
+    "created_at": "2026-11-16 08:00:00"
+  }
+]

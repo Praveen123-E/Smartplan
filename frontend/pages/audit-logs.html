@@ -1,0 +1,34 @@
+<!-- Audit Logs & State Traceability Page -->
+<div class="d-flex flex-wrap align-items-center justify-content-between gap-2 mb-3">
+    <div>
+        <h4 class="fw-bold mb-0">Audit Logs & State Change History</h4>
+        <p class="text-muted small mb-0">Immutable governance log of API mutations and explicit business entity lifecycle transitions.</p>
+    </div>
+    <button class="btn btn-navy btn-sm" id="auditRefreshBtn"><i class="bi bi-arrow-clockwise me-1"></i>Refresh Logs</button>
+</div>
+
+<div class="row g-3">
+    <div class="col-lg-6">
+        <div class="enterprise-card h-100">
+            <div class="card-header"><span>Recent Audit Trail</span></div>
+            <div class="table-responsive">
+                <table class="table table-enterprise table-hover">
+                    <thead><tr><th>Action</th><th>Entity</th><th>ID</th><th>Actor</th><th>Time</th></tr></thead>
+                    <tbody id="auditLogsBody"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="enterprise-card h-100">
+            <div class="card-header"><span>Explicit State Transitions</span></div>
+            <div class="table-responsive">
+                <table class="table table-enterprise table-hover">
+                    <thead><tr><th>Entity</th><th>ID</th><th>Transition</th><th>By</th><th>Reason</th></tr></thead>
+                    <tbody id="stateChangesBody"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+

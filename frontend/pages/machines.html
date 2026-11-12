@@ -1,0 +1,54 @@
+<!-- Machines Page -->
+<div class="d-flex flex-wrap align-items-center justify-content-between gap-2 mb-3">
+    <div>
+        <h4 class="fw-bold mb-0">Machines & Workcenters</h4>
+        <p class="text-muted small mb-0">Manage shop-floor equipment, availability statuses, capacity rates, and operating costs.</p>
+    </div>
+    <button class="btn btn-indigo btn-sm" id="btnNewMachine"><i class="bi bi-plus-lg me-1"></i>Add Machine</button>
+</div>
+
+<div class="enterprise-card mb-3">
+    <div class="card-body py-3 d-flex flex-wrap gap-2">
+        <input type="text" id="machSearch" class="form-control form-control-sm" style="max-width:240px" placeholder="Search Machine ID or Name">
+        <select id="machStatusFilter" class="form-select form-select-sm" style="max-width:170px">
+            <option value="">All Status</option>
+            <option>Available</option><option>Running</option><option>Maintenance</option><option>Down</option><option>Inactive</option>
+        </select>
+        <button class="btn btn-navy btn-sm" id="machFilterBtn">Filter</button>
+    </div>
+</div>
+
+<div class="enterprise-card">
+    <div class="table-responsive">
+        <table class="table table-enterprise table-hover">
+            <thead>
+                <tr><th>Machine ID</th><th>Name</th><th>Type</th><th>Work Center</th><th>Cap/Hr</th><th>Cost/Hr ($)</th><th>Status</th><th>Action</th></tr>
+            </thead>
+            <tbody id="machinesTableBody"></tbody>
+        </table>
+    </div>
+</div>
+
+<div class="modal fade" id="machineModal" tabindex="-1">
+    <div class="modal-dialog">
+        <form class="modal-content" id="machineForm">
+            <div class="modal-header">
+                <h5 class="modal-title fw-bold" id="machineModalTitle">Add Machine</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body row g-2">
+                <input type="hidden" id="machEditId">
+                <div class="col-md-6"><label class="form-label small fw-semibold">Machine Name</label><input id="machName" class="form-control form-control-sm" required></div>
+                <div class="col-md-6"><label class="form-label small fw-semibold">Machine Type</label><input id="machType" class="form-control form-control-sm" value="CNC Mill" required></div>
+                <div class="col-md-6"><label class="form-label small fw-semibold">Work Center</label><input id="machWorkcenter" class="form-control form-control-sm" value="WC-MACHINING" required></div>
+                <div class="col-md-6"><label class="form-label small fw-semibold">Status</label><select id="machStatus" class="form-select form-select-sm"><option>Available</option><option>Running</option><option>Maintenance</option><option>Down</option><option>Inactive</option></select></div>
+                <div class="col-md-6"><label class="form-label small fw-semibold">Capacity / Hour</label><input type="number" step="0.5" id="machCap" class="form-control form-control-sm" value="12" min="1" required></div>
+                <div class="col-md-6"><label class="form-label small fw-semibold">Operating Cost / Hr ($)</label><input type="number" step="1" id="machCost" class="form-control form-control-sm" value="65" min="0" required></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-light btn-sm" data-bs-dismiss="modal">Cancel</button>
+                <button type="submit" class="btn btn-indigo btn-sm">Save Machine</button>
+            </div>
+        </form>
+    </div>
+</div>

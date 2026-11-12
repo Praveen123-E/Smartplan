@@ -1,0 +1,13 @@
+gt_id,scenario_name,issue_type,entity_type,entity_id,expected_is_anomaly,expected_decision,notes
+GT-001,SCEN-01-MACHINE-OVERLAP,MachineOverlap,OperationSchedule,SCH-2026-000002,True,Detect MachineOverlap,Two operations scheduled concurrently on a single-capacity machine.
+GT-002,SCEN-02-PRECEDENCE-VIOLATION,PrecedenceViolation,OperationSchedule,SCH-2026-000002,True,Detect PrecedenceViolation,Operation sequence order violated (Step 2 started before Step 1 finished).
+GT-003,SCEN-03-MATERIAL-BEFORE-AVAILABILITY,MaterialBeforeAvailability,InventoryLot,LOT-2026-000040,True,Detect MaterialBeforeAvailability,Material consumed before inventory lot availability date.
+GT-004,SCEN-04-OUTSIDE-SHIFT-CALENDAR,OutsideShiftCalendar,OperationSchedule,SCH-SCEN-000004,True,Detect OutsideShiftCalendar,Operation placed outside machine working shift window.
+GT-005,SCEN-05-CHANGEOVER-OMITTED,ChangeoverOmitted,OperationSchedule,SCH-SCEN-000005,True,Detect ChangeoverOmitted,Sequence-dependent changeover setup time was omitted.
+GT-006,SCEN-06-DOWNTIME-CONFLICT,MachineDowntimeConflict,MachineDowntime,1,True,Detect MachineDowntimeConflict,Operation overlaps planned machine maintenance downtime.
+GT-007,SCEN-07-INELIGIBLE-MACHINE,IneligibleMachine,Machine,MACH-040,True,Detect IneligibleMachine,Operation assigned to a machine lacking required capability.
+GT-008,SCEN-08-NEGATIVE-INVENTORY,InsufficientMaterial,Material,MAT-2026-000001,True,Detect InsufficientMaterial,Deliberate negative-inventory scenario for validation testing.
+GT-009,BASELINE-VALID-SCHEDULE,None,OperationSchedule,SCH-2026-000001,False,Valid Schedule (No Anomaly),Clean baseline schedule row verified against all hard constraints.
+GT-010,BASELINE-VALID-SCHEDULE,None,OperationSchedule,SCH-2026-000002,False,Valid Schedule (No Anomaly),Clean baseline schedule row verified against all hard constraints.
+GT-011,BASELINE-VALID-SCHEDULE,None,OperationSchedule,SCH-2026-000003,False,Valid Schedule (No Anomaly),Clean baseline schedule row verified against all hard constraints.
+GT-012,BASELINE-VALID-SCHEDULE,None,OperationSchedule,SCH-2026-000004,False,Valid Schedule (No Anomaly),Clean baseline schedule row verified against all hard constraints.

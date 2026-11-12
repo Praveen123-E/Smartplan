@@ -1,0 +1,122 @@
+[
+  {
+    "gt_id": "GT-001",
+    "scenario_name": "SCEN-01-MACHINE-OVERLAP",
+    "issue_type": "MachineOverlap",
+    "entity_type": "OperationSchedule",
+    "entity_id": "SCH-2026-000002",
+    "expected_is_anomaly": true,
+    "expected_decision": "Detect MachineOverlap",
+    "notes": "Two operations scheduled concurrently on a single-capacity machine."
+  },
+  {
+    "gt_id": "GT-002",
+    "scenario_name": "SCEN-02-PRECEDENCE-VIOLATION",
+    "issue_type": "PrecedenceViolation",
+    "entity_type": "OperationSchedule",
+    "entity_id": "SCH-2026-000002",
+    "expected_is_anomaly": true,
+    "expected_decision": "Detect PrecedenceViolation",
+    "notes": "Operation sequence order violated (Step 2 started before Step 1 finished)."
+  },
+  {
+    "gt_id": "GT-003",
+    "scenario_name": "SCEN-03-MATERIAL-BEFORE-AVAILABILITY",
+    "issue_type": "MaterialBeforeAvailability",
+    "entity_type": "InventoryLot",
+    "entity_id": "LOT-2026-000040",
+    "expected_is_anomaly": true,
+    "expected_decision": "Detect MaterialBeforeAvailability",
+    "notes": "Material consumed before inventory lot availability date."
+  },
+  {
+    "gt_id": "GT-004",
+    "scenario_name": "SCEN-04-OUTSIDE-SHIFT-CALENDAR",
+    "issue_type": "OutsideShiftCalendar",
+    "entity_type": "OperationSchedule",
+    "entity_id": "SCH-SCEN-000004",
+    "expected_is_anomaly": true,
+    "expected_decision": "Detect OutsideShiftCalendar",
+    "notes": "Operation placed outside machine working shift window."
+  },
+  {
+    "gt_id": "GT-005",
+    "scenario_name": "SCEN-05-CHANGEOVER-OMITTED",
+    "issue_type": "ChangeoverOmitted",
+    "entity_type": "OperationSchedule",
+    "entity_id": "SCH-SCEN-000005",
+    "expected_is_anomaly": true,
+    "expected_decision": "Detect ChangeoverOmitted",
+    "notes": "Sequence-dependent changeover setup time was omitted."
+  },
+  {
+    "gt_id": "GT-006",
+    "scenario_name": "SCEN-06-DOWNTIME-CONFLICT",
+    "issue_type": "MachineDowntimeConflict",
+    "entity_type": "MachineDowntime",
+    "entity_id": "1",
+    "expected_is_anomaly": true,
+    "expected_decision": "Detect MachineDowntimeConflict",
+    "notes": "Operation overlaps planned machine maintenance downtime."
+  },
+  {
+    "gt_id": "GT-007",
+    "scenario_name": "SCEN-07-INELIGIBLE-MACHINE",
+    "issue_type": "IneligibleMachine",
+    "entity_type": "Machine",
+    "entity_id": "MACH-040",
+    "expected_is_anomaly": true,
+    "expected_decision": "Detect IneligibleMachine",
+    "notes": "Operation assigned to a machine lacking required capability."
+  },
+  {
+    "gt_id": "GT-008",
+    "scenario_name": "SCEN-08-NEGATIVE-INVENTORY",
+    "issue_type": "InsufficientMaterial",
+    "entity_type": "Material",
+    "entity_id": "MAT-2026-000001",
+    "expected_is_anomaly": true,
+    "expected_decision": "Detect InsufficientMaterial",
+    "notes": "Deliberate negative-inventory scenario for validation testing."
+  },
+  {
+    "gt_id": "GT-009",
+    "scenario_name": "BASELINE-VALID-SCHEDULE",
+    "issue_type": "None",
+    "entity_type": "OperationSchedule",
+    "entity_id": "SCH-2026-000001",
+    "expected_is_anomaly": false,
+    "expected_decision": "Valid Schedule (No Anomaly)",
+    "notes": "Clean baseline schedule row verified against all hard constraints."
+  },
+  {
+    "gt_id": "GT-010",
+    "scenario_name": "BASELINE-VALID-SCHEDULE",
+    "issue_type": "None",
+    "entity_type": "OperationSchedule",
+    "entity_id": "SCH-2026-000002",
+    "expected_is_anomaly": false,
+    "expected_decision": "Valid Schedule (No Anomaly)",
+    "notes": "Clean baseline schedule row verified against all hard constraints."
+  },
+  {
+    "gt_id": "GT-011",
+    "scenario_name": "BASELINE-VALID-SCHEDULE",
+    "issue_type": "None",
+    "entity_type": "OperationSchedule",
+    "entity_id": "SCH-2026-000003",
+    "expected_is_anomaly": false,
+    "expected_decision": "Valid Schedule (No Anomaly)",
+    "notes": "Clean baseline schedule row verified against all hard constraints."
+  },
+  {
+    "gt_id": "GT-012",
+    "scenario_name": "BASELINE-VALID-SCHEDULE",
+    "issue_type": "None",
+    "entity_type": "OperationSchedule",
+    "entity_id": "SCH-2026-000004",
+    "expected_is_anomaly": false,
+    "expected_decision": "Valid Schedule (No Anomaly)",
+    "notes": "Clean baseline schedule row verified against all hard constraints."
+  }
+]

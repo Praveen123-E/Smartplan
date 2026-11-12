@@ -1,0 +1,87 @@
+<!-- Machine Calendars & Downtime Page -->
+<div class="d-flex flex-wrap align-items-center justify-content-between gap-2 mb-3">
+    <div>
+        <h4 class="fw-bold mb-0">Machine Calendars, Shifts & Downtime</h4>
+        <p class="text-muted small mb-0">Configure working windows, breaks, holidays, labor shifts, and planned/unplanned downtime.</p>
+    </div>
+    <div class="d-flex gap-2">
+        <button class="btn btn-outline-primary btn-sm" id="btnNewCalendar"><i class="bi bi-calendar-plus me-1"></i>Add Calendar Window</button>
+        <button class="btn btn-danger btn-sm" id="btnNewDowntime"><i class="bi bi-wrench-adjustable me-1"></i>Record Downtime</button>
+    </div>
+</div>
+
+<div class="row g-3 mb-3">
+    <div class="col-lg-7">
+        <div class="enterprise-card h-100">
+            <div class="card-header">
+                <span>Machine Working Calendars</span>
+                <select id="calMachineFilter" class="form-select form-select-sm" style="width:170px"><option value="">All Machines</option></select>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-enterprise table-hover">
+                    <thead><tr><th>Machine</th><th>Date</th><th>Shift</th><th>Break</th><th>Workday</th><th>Holiday</th><th>Avail Min</th></tr></thead>
+                    <tbody id="calendarsTableBody"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-5">
+        <div class="enterprise-card h-100">
+            <div class="card-header"><span>Recorded Downtime Events</span></div>
+            <div class="table-responsive">
+                <table class="table table-enterprise table-hover">
+                    <thead><tr><th>Machine</th><th>Type</th><th>Start</th><th>End</th><th>Reason</th></tr></thead>
+                    <tbody id="downtimeTableBody"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="enterprise-card">
+    <div class="card-header"><span>Plant Labor Shifts & Capacity</span></div>
+    <div class="table-responsive">
+        <table class="table table-enterprise table-hover">
+            <thead><tr><th>Shift ID</th><th>Name</th><th>Start</th><th>End</th><th>Headcount</th><th>Required Skill</th></tr></thead>
+            <tbody id="laborShiftsTableBody"></tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Calendar Modal -->
+<div class="modal fade" id="calendarModal" tabindex="-1">
+    <div class="modal-dialog">
+        <form class="modal-content" id="calendarForm">
+            <div class="modal-header"><h5 class="modal-title fw-bold">Add Calendar Window</h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div>
+            <div class="modal-body row g-2">
+                <div class="col-md-6"><label class="form-label small fw-semibold">Machine</label><select id="calMachId" class="form-select form-select-sm" required></select></div>
+                <div class="col-md-6"><label class="form-label small fw-semibold">Date</label><input type="date" id="calDate" class="form-control form-control-sm" required></div>
+                <div class="col-md-6"><label class="form-label small fw-semibold">Shift Start</label><input type="time" id="calShiftStart" class="form-control form-control-sm" value="08:00" required></div>
+                <div class="col-md-6"><label class="form-label small fw-semibold">Shift End</label><input type="time" id="calShiftEnd" class="form-control form-control-sm" value="16:00" required></div>
+                <div class="col-md-6"><label class="form-label small fw-semibold">Break Start</label><input type="time" id="calBreakStart" class="form-control form-control-sm" value="12:00"></div>
+                <div class="col-md-6"><label class="form-label small fw-semibold">Break End</label><input type="time" id="calBreakEnd" class="form-control form-control-sm" value="12:30"></div>
+                <div class="col-6"><div class="form-check"><input type="checkbox" id="calIsWork" class="form-check-input" checked><label class="form-check-label small" for="calIsWork">Working Day</label></div></div>
+                <div class="col-6"><div class="form-check"><input type="checkbox" id="calIsHol" class="form-check-input"><label class="form-check-label small" for="calIsHol">Holiday</label></div></div>
+            </div>
+            <div class="modal-footer"><button class="btn btn-indigo btn-sm" type="submit">Save Calendar</button></div>
+        </form>
+    </div>
+</div>
+
+<!-- Downtime Modal -->
+<div class="modal fade" id="downtimeModal" tabindex="-1">
+    <div class="modal-dialog">
+        <form class="modal-content" id="downtimeForm">
+            <div class="modal-header"><h5 class="modal-title fw-bold">Record Machine Downtime</h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div>
+            <div class="modal-body row g-2">
+                <div class="col-md-6"><label class="form-label small fw-semibold">Machine</label><select id="dtMachId" class="form-select form-select-sm" required></select></div>
+                <div class="col-md-6"><label class="form-label small fw-semibold">Type</label><select id="dtType" class="form-select form-select-sm"><option>Planned Maintenance</option><option>Unplanned Breakdown</option><option>Calibration</option></select></div>
+                <div class="col-md-6"><label class="form-label small fw-semibold">Start Time</label><input type="datetime-local" id="dtStart" class="form-control form-control-sm" required></div>
+                <div class="col-md-6"><label class="form-label small fw-semibold">End Time</label><input type="datetime-local" id="dtEnd" class="form-control form-control-sm" required></div>
+                <div class="col-12"><label class="form-label small fw-semibold">Reason</label><input id="dtReason" class="form-control form-control-sm" value="Preventive spindle inspection" required></div>
+            </div>
+            <div class="modal-footer"><button class="btn btn-danger btn-sm" type="submit">Save Downtime</button></div>
+        </form>
+    </div>
+</div>
+

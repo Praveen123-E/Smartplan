@@ -1,0 +1,61 @@
+<!-- Interactive Gantt Planning Page -->
+<div class="d-flex flex-wrap align-items-center justify-content-between gap-2 mb-3">
+    <div>
+        <h4 class="fw-bold mb-0">Gantt Production Planning Board</h4>
+        <p class="text-muted small mb-0">Interactive machine timeline with priority colors, sequence-dependent changeovers, downtime blocks, and shift markers.</p>
+    </div>
+    <div class="btn-group btn-group-sm" role="group">
+        <button class="btn btn-outline-secondary" data-gantt-zoom="hour">Hour Zoom</button>
+        <button class="btn btn-indigo" data-gantt-zoom="day">Day Zoom</button>
+        <button class="btn btn-outline-secondary" data-gantt-zoom="week">Week Zoom</button>
+    </div>
+</div>
+
+<div class="enterprise-card mb-3">
+    <div class="card-body py-3">
+        <div class="row g-2 align-items-end">
+            <div class="col-md-4">
+                <label class="form-label small fw-semibold mb-1">Scheduling Run</label>
+                <select id="ganttRunSelect" class="form-select form-select-sm"></select>
+            </div>
+            <div class="col-md-3">
+                <label class="form-label small fw-semibold mb-1">Machine Filter</label>
+                <select id="ganttMachineFilter" class="form-select form-select-sm"><option value="">All Machines</option></select>
+            </div>
+            <div class="col-md-3">
+                <label class="form-label small fw-semibold mb-1">Order ID Filter</label>
+                <input id="ganttOrderFilter" class="form-control form-control-sm" placeholder="e.g. ORD-2026-000001">
+            </div>
+            <div class="col-md-2">
+                <button id="ganttLoadBtn" class="btn btn-navy btn-sm w-100"><i class="bi bi-arrow-repeat me-1"></i>Load</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="gantt-shell">
+    <div class="gantt-toolbar">
+        <div class="gantt-legend">
+            <span class="gantt-legend-item"><span class="legend-swatch" style="background:#dc2626"></span>Urgent (P1)</span>
+            <span class="gantt-legend-item"><span class="legend-swatch" style="background:#d97706"></span>High (P2)</span>
+            <span class="gantt-legend-item"><span class="legend-swatch" style="background:#4338ca"></span>Medium (P3-4)</span>
+            <span class="gantt-legend-item"><span class="legend-swatch" style="background:#0f766e"></span>Low (P5)</span>
+            <span class="gantt-legend-item"><span class="legend-swatch" style="background:#f59e0b"></span>Changeover</span>
+            <span class="gantt-legend-item"><span class="legend-swatch" style="background:rgba(220,38,38,0.28);border:1px solid #dc2626"></span>Downtime</span>
+            <span class="gantt-legend-item"><span class="legend-swatch" style="border-left:2px dashed #4338ca;width:6px"></span>Shift Boundary</span>
+        </div>
+        <div class="small text-muted" id="ganttSummaryText">Select a scheduling run</div>
+    </div>
+    <div id="ganttBoardContainer"></div>
+</div>
+
+<!-- Task Detail Modal -->
+<div class="modal fade" id="ganttTaskModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header"><h5 class="modal-title fw-bold">Scheduled Operation Details</h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div>
+            <div class="modal-body" id="ganttTaskModalBody"></div>
+        </div>
+    </div>
+</div>
+

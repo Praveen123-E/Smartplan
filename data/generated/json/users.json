@@ -1,0 +1,46 @@
+[
+  {
+    "user_id": "USR-001",
+    "username": "admin",
+    "email": "admin@plantops.local",
+    "full_name": "OT/IT Admin",
+    "hashed_password": "$2b$12$HrXZmeHHouSMY8.VNhPjc.lxb47odNAwtjfY901zVg8tv8v475Zx6",
+    "is_active": true,
+    "last_login_at": null,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "user_id": "USR-002",
+    "username": "planner",
+    "email": "planner@plantops.local",
+    "full_name": "Lead Production Planner",
+    "hashed_password": "$2b$12$HrXZmeHHouSMY8.VNhPjc.lxb47odNAwtjfY901zVg8tv8v475Zx6",
+    "is_active": true,
+    "last_login_at": null,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "user_id": "USR-003",
+    "username": "operator",
+    "email": "operator@plantops.local",
+    "full_name": "Floor Plant Operator",
+    "hashed_password": "$2b$12$HrXZmeHHouSMY8.VNhPjc.lxb47odNAwtjfY901zVg8tv8v475Zx6",
+    "is_active": true,
+    "last_login_at": null,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "user_id": "USR-004",
+    "username": "engineer",
+    "email": "engineer@plantops.local",
+    "full_name": "Maintenance & Quality Engineer",
+    "hashed_password": "$2b$12$HrXZmeHHouSMY8.VNhPjc.lxb47odNAwtjfY901zVg8tv8v475Zx6",
+    "is_active": true,
+    "last_login_at": null,
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  }
+]

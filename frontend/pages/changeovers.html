@@ -1,0 +1,43 @@
+<!-- Changeover Management Page -->
+<div class="d-flex flex-wrap align-items-center justify-content-between gap-2 mb-3">
+    <div>
+        <h4 class="fw-bold mb-0">Sequence-Dependent Changeover Matrix</h4>
+        <p class="text-muted small mb-0">Inspect and configure transition setup minutes between consecutive products on each machine.</p>
+    </div>
+    <button class="btn btn-indigo btn-sm" id="btnNewChangeover"><i class="bi bi-plus-lg me-1"></i>Add / Update Rule</button>
+</div>
+
+<div class="enterprise-card mb-3">
+    <div class="card-body py-3 d-flex flex-wrap gap-2">
+        <select id="coMachineFilter" class="form-select form-select-sm" style="max-width:210px"><option value="">All Machines</option></select>
+        <input id="coFromFilter" class="form-control form-control-sm" style="max-width:190px" placeholder="From Product ID">
+        <input id="coToFilter" class="form-control form-control-sm" style="max-width:190px" placeholder="To Product ID">
+        <button class="btn btn-navy btn-sm" id="coFilterBtn">Filter Matrix</button>
+    </div>
+</div>
+
+<div class="enterprise-card">
+    <div class="table-responsive">
+        <table class="table table-enterprise table-hover">
+            <thead><tr><th>Machine</th><th>From Product</th><th>To Product</th><th>Setup (min)</th><th>Changeover Type</th><th>Cleaning</th></tr></thead>
+            <tbody id="changeoversTableBody"></tbody>
+        </table>
+    </div>
+</div>
+
+<div class="modal fade" id="changeoverModal" tabindex="-1">
+    <div class="modal-dialog">
+        <form class="modal-content" id="changeoverForm">
+            <div class="modal-header"><h5 class="modal-title fw-bold">Add Changeover Transition Rule</h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div>
+            <div class="modal-body row g-2">
+                <div class="col-12"><label class="form-label small fw-semibold">Machine</label><select id="coFormMach" class="form-select form-select-sm" required></select></div>
+                <div class="col-md-6"><label class="form-label small fw-semibold">From Product</label><select id="coFormFrom" class="form-select form-select-sm" required></select></div>
+                <div class="col-md-6"><label class="form-label small fw-semibold">To Product</label><select id="coFormTo" class="form-select form-select-sm" required></select></div>
+                <div class="col-md-6"><label class="form-label small fw-semibold">Changeover Minutes</label><input type="number" id="coFormMins" class="form-control form-control-sm" value="30" min="0" required></div>
+                <div class="col-md-6"><label class="form-label small fw-semibold">Type</label><input id="coFormType" class="form-control form-control-sm" value="Tooling & Fixture"></div>
+            </div>
+            <div class="modal-footer"><button class="btn btn-indigo btn-sm" type="submit">Save Transition</button></div>
+        </form>
+    </div>
+</div>
+

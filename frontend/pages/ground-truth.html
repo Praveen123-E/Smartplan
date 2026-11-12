@@ -1,0 +1,39 @@
+<!-- Ground Truth & Validation Page -->
+<div class="d-flex flex-wrap align-items-center justify-content-between gap-2 mb-3">
+    <div>
+        <h4 class="fw-bold mb-0">Data Validation & Ground Truth Evaluation</h4>
+        <p class="text-muted small mb-0">Execute the 14-point data integrity validation suite and inspect anomaly detector precision/recall metrics.</p>
+    </div>
+    <div class="d-flex gap-2">
+        <button class="btn btn-indigo btn-sm" id="btnRunValidation"><i class="bi bi-shield-check me-1"></i>Run 14-Point Validation</button>
+        <button class="btn btn-outline-primary btn-sm" id="btnRefreshGt"><i class="bi bi-bullseye me-1"></i>Evaluate Ground Truth</button>
+    </div>
+</div>
+
+<div class="row g-3 mb-4" id="gtMetricsRow">
+    <div class="col-6 col-md-3"><div class="kpi-card"><div><div class="kpi-label">Precision</div><div class="kpi-value" id="gtPrecision">-</div></div><span class="kpi-icon indigo"><i class="bi bi-crosshair"></i></span></div></div>
+    <div class="col-6 col-md-3"><div class="kpi-card"><div><div class="kpi-label">Recall</div><div class="kpi-value" id="gtRecall">-</div></div><span class="kpi-icon success"><i class="bi bi-radar"></i></span></div></div>
+    <div class="col-6 col-md-3"><div class="kpi-card"><div><div class="kpi-label">F1 Score</div><div class="kpi-value" id="gtF1">-</div></div><span class="kpi-icon info"><i class="bi bi-award"></i></span></div></div>
+    <div class="col-6 col-md-3"><div class="kpi-card"><div><div class="kpi-label">True / False Positives</div><div class="kpi-value" id="gtTpFp">-</div></div><span class="kpi-icon navy"><i class="bi bi-check2-all"></i></span></div></div>
+</div>
+
+<div class="enterprise-card mb-3">
+    <div class="card-header"><span>14-Point Data Validation Report</span><span id="valOverallBadge"></span></div>
+    <div class="table-responsive">
+        <table class="table table-enterprise table-hover">
+            <thead><tr><th>#</th><th>Check Name</th><th>Status</th><th>Issue Count</th><th>Sample Details</th></tr></thead>
+            <tbody id="validationTableBody"></tbody>
+        </table>
+    </div>
+</div>
+
+<div class="enterprise-card">
+    <div class="card-header"><span>Ground Truth Per-Scenario Comparison</span></div>
+    <div class="table-responsive">
+        <table class="table table-enterprise table-hover">
+            <thead><tr><th>GT ID</th><th>Anomaly Type</th><th>Entity</th><th>Expected</th><th>Detected</th><th>Outcome</th></tr></thead>
+            <tbody id="gtDetailsTableBody"></tbody>
+        </table>
+    </div>
+</div>
+

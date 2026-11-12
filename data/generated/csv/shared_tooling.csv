@@ -1,0 +1,7 @@
+tooling_id,name,tool_type,total_quantity,available_quantity,status,created_at,updated_at
+TOOL-001,Precision Fixture Set 01,Jig,3,3,Available,2026-11-16 08:00:00,2026-11-16 08:00:00
+TOOL-002,Precision Fixture Set 02,Calibration Gauge,3,3,Available,2026-11-16 08:00:00,2026-11-16 08:00:00
+TOOL-003,Precision Fixture Set 03,Die,3,3,Available,2026-11-16 08:00:00,2026-11-16 08:00:00
+TOOL-004,Precision Fixture Set 04,Fixture,3,3,Available,2026-11-16 08:00:00,2026-11-16 08:00:00
+TOOL-005,Precision Fixture Set 05,Fixture,2,2,Available,2026-11-16 08:00:00,2026-11-16 08:00:00
+TOOL-006,Precision Fixture Set 06,Calibration Gauge,2,2,Available,2026-11-16 08:00:00,2026-11-16 08:00:00

@@ -1,0 +1,80 @@
+<!-- Routing & Operations Page -->
+<div class="d-flex flex-wrap align-items-center justify-content-between gap-2 mb-3">
+    <div>
+        <h4 class="fw-bold mb-0">Routing & Operations</h4>
+        <p class="text-muted small mb-0">Inspect bill-of-operations sequences, eligible machines, setup durations, and tooling requirements.</p>
+    </div>
+    <div class="d-flex gap-2">
+        <select id="routingProductFilter" class="form-select form-select-sm" style="width:240px">
+            <option value="">All Products</option>
+        </select>
+        <button class="btn btn-indigo btn-sm" id="btnNewRouting"><i class="bi bi-diagram-3 me-1"></i>New Routing</button>
+    </div>
+</div>
+
+<div class="enterprise-card mb-3">
+    <div class="card-header"><span>Visual Operation Sequence Flow</span><span id="routingFlowLabel" class="small text-muted">Select a routing below</span></div>
+    <div class="card-body">
+        <div id="routingFlowContainer" class="routing-flow-strip">
+            <span class="text-muted small">Click "Inspect Flow" on any routing row to visualize its operation sequence.</span>
+        </div>
+    </div>
+</div>
+
+<div class="row g-3">
+    <div class="col-lg-6">
+        <div class="enterprise-card">
+            <div class="card-header"><span>Product Routings</span></div>
+            <div class="table-responsive">
+                <table class="table table-enterprise table-hover">
+                    <thead><tr><th>Routing ID</th><th>Product</th><th>Version</th><th>Active</th><th>Steps</th><th>Action</th></tr></thead>
+                    <tbody id="routingsTableBody"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="enterprise-card">
+            <div class="card-header"><span>Standard Operation Templates</span></div>
+            <div class="table-responsive">
+                <table class="table table-enterprise table-hover">
+                    <thead><tr><th>Code</th><th>Name</th><th>Type</th><th>Run/Unit (m)</th><th>Setup (m)</th></tr></thead>
+                    <tbody id="operationsTableBody"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="routingModal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <form class="modal-content" id="routingForm">
+            <div class="modal-header">
+                <h5 class="modal-title fw-bold">Create Product Routing</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body row g-2">
+                <div class="col-md-5">
+                    <label class="form-label small fw-semibold">Product</label>
+                    <select id="rtProductId" class="form-select form-select-sm" required></select>
+                </div>
+                <div class="col-md-4">
+                    <label class="form-label small fw-semibold">Routing Name</label>
+                    <input id="rtName" class="form-control form-control-sm" value="Standard Manufacturing Route" required>
+                </div>
+                <div class="col-md-3">
+                    <label class="form-label small fw-semibold">Version</label>
+                    <input id="rtVersion" class="form-control form-control-sm" value="02" minlength="2" required>
+                </div>
+                <div class="col-12 mt-2">
+                    <label class="form-label small fw-semibold">Operation Codes (comma-separated, e.g. OP-CUT,OP-CNC,OP-INSP)</label>
+                    <input id="rtOperationCodes" class="form-control form-control-sm" placeholder="Select from Standard Operations table" required>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-light btn-sm" data-bs-dismiss="modal">Cancel</button>
+                <button type="submit" class="btn btn-indigo btn-sm">Create Routing</button>
+            </div>
+        </form>
+    </div>
+</div>

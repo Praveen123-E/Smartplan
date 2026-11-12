@@ -1,0 +1,30 @@
+[
+  {
+    "role_id": 1,
+    "name": "Admin",
+    "description": "OT/IT Administrator",
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "role_id": 2,
+    "name": "Production Planner",
+    "description": "Production Planner",
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "role_id": 3,
+    "name": "Plant Operator",
+    "description": "Plant Operator",
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  },
+  {
+    "role_id": 4,
+    "name": "Maintenance/Quality Engineer",
+    "description": "Maintenance/Quality Engineer",
+    "created_at": "2026-11-16 08:00:00",
+    "updated_at": "2026-11-16 08:00:00"
+  }
+]

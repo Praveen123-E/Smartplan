@@ -1,0 +1,36 @@
+<!-- Machine Utilization Page -->
+<div class="d-flex flex-wrap align-items-center justify-content-between gap-2 mb-3">
+    <div>
+        <h4 class="fw-bold mb-0">Machine Utilization & Capacity Analysis</h4>
+        <p class="text-muted small mb-0">Compare scheduled runtime against available working calendar capacity to spot bottleneck resources.</p>
+    </div>
+    <div class="d-flex gap-2">
+        <select id="utilRunSelect" class="form-select form-select-sm" style="width:240px"></select>
+        <button class="btn btn-navy btn-sm" id="utilRefreshBtn">Refresh</button>
+    </div>
+</div>
+
+<div class="row g-3 mb-3">
+    <div class="col-lg-8">
+        <div class="enterprise-card h-100">
+            <div class="card-header"><span>Utilization by Machine (%)</span></div>
+            <div class="card-body" style="height:310px"><canvas id="utilBarChart"></canvas></div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="enterprise-card h-100">
+            <div class="card-header"><span>Fleet Status Breakdown</span></div>
+            <div class="card-body" style="height:310px"><canvas id="utilFleetChart"></canvas></div>
+        </div>
+    </div>
+</div>
+
+<div class="enterprise-card">
+    <div class="table-responsive">
+        <table class="table table-enterprise table-hover">
+            <thead><tr><th>Machine ID</th><th>Name</th><th>Status</th><th>Scheduled Min</th><th>Available Min</th><th>Utilization %</th></tr></thead>
+            <tbody id="utilTableBody"></tbody>
+        </table>
+    </div>
+</div>
+

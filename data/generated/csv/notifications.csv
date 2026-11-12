@@ -1,0 +1,2 @@
+id,user_id,title,message,severity,is_read,entity_type,entity_id,created_at
+1,USR-002,Baseline Schedule Ready,Baseline run RUN-2026-000001 generated with 70.0% OTD.,Info,False,SchedulingRun,RUN-2026-000001,2026-11-16 08:00:00

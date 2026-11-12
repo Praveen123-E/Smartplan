@@ -1,0 +1,2 @@
+id,user_id,username,action,entity_type,entity_id,old_value,new_value,reason,ip_address,created_at
+1,USR-002,planner,GENERATE_BASELINE_SCHEDULE,SchedulingRun,RUN-2026-000001,,Scheduled 20 baseline orders,Deterministic seed 20261022 baseline,127.0.0.1,2026-11-16 08:00:00
